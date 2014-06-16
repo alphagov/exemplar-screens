@@ -9,4 +9,4 @@ Browse screenshots of GOV.UK exemplar services, organised by user scenario.
 Add your own
 ============
 
-You're welcome to add your own screenshots. Checkout the folders in '/exemplars' and follow the structure there.
+You're welcome to add your own screenshots. Checkout the folders in '/exemplar' and follow the file and data structures there. You can preview locally by opening any index.html file directly in your browser.
