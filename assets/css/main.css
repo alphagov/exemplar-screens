@@ -31,7 +31,7 @@ h2{
 }
 .app-header{
 	color: #AAA;
-	font-size: 19px;
+	font-size: 16px;
 	margin-top: 0;
 }
 .date{
@@ -145,14 +145,10 @@ h2{
 	-moz-box-shadow: 0 0 0 #00823b;
 	box-shadow: 0 0 0 #00823B;
 }
-
-
 .screen.zoomed-in .journey{
 	display: block;
 	margin-bottom: 20px;
 }
-
-
 html.noscroll {
     position: fixed;
     top: 0;
@@ -164,12 +160,59 @@ html.noscroll {
 /* ====================================================*/
 /* Toolbar */
 
-#slider{
-	margin: 28px 50px;
+.toolbar{
 	position: fixed;
 	top: 0;
 	right: 0;
 	z-index: 100;
+}
+
+
+.js-close-all,
+.js-open-all{
+	font-size: 16px;
+	color: #2E3191;
+  	text-decoration: underline;
+}
+.js-close-all:hover,
+.js-open-all:hover{
+	color: #2E8ACA;
+  	cursor: pointer;
+  	text-decoration: none;
+}
+.js-close-all{
+	display: none;
+}
+
+/* ====================================================*/
+/* Full height images toggle */
+
+.js-full-height{
+	float: right;
+	text-indent: -9999px;
+	width: 15px;
+	height: 23px;
+	background: url(full-height.png);
+	margin-top: 27px;
+}
+.js-full-height:hover{
+	cursor: pointer;
+}
+
+.full-height .image{
+	height: auto;
+}
+.full-height .image img{
+	margin-bottom: 0;
+}
+
+
+/* ====================================================*/
+/* Zoom slider */
+
+#slider{
+	float: right;
+	margin: 28px 25px 0 25px;
 }
 
 

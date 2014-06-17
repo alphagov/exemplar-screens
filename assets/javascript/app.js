@@ -2,6 +2,25 @@
   $(document).ready(function(){
 
 
+    // Full height images toggle
+    $(".js-full-height").click(function( event ) {
+      $('body').toggleClass('full-height');
+    });
+
+    // Open all scenarios
+    $(".js-open-all").click(function( event ) {
+      $('details').attr('open', true);
+      $(".js-close-all").show();
+      $(this).hide();
+    });
+
+    // Close all scenarios
+    $(".js-close-all").click(function( event ) {
+      $('details').attr('open', false);
+      $(".js-open-all").show();
+      $(this).hide();
+    });
+
     // Opens full-screen view of current screen
     $(".js-open-screen").click(function( event ) {
       var screen = $(this).parents('.screen')
