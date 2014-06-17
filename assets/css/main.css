@@ -1,9 +1,6 @@
-
-
-
-
 /* ====================================================*/
 /* Layout and typography */
+
 
 body{
 	font-family: sans-serif;
@@ -19,6 +16,9 @@ h1{
 h2{
 	font-size: 20px;
 }
+a{
+	color: #005EA5;
+}
 .exemplar-list{
 	padding-left: 0;
 	color: #AAA;
@@ -28,6 +28,10 @@ h2{
 	padding-top: 3px;
 	margin-bottom:  10px;
 	list-style-type: none;
+}
+.exemplar-list a:hover{	
+	color: #2E8ACA;
+  	text-decoration: none;
 }
 .app-header{
 	color: #AAA;
@@ -171,7 +175,7 @@ html.noscroll {
 .js-close-all,
 .js-open-all{
 	font-size: 16px;
-	color: #2E3191;
+	color: #005EA5;
   	text-decoration: underline;
 }
 .js-close-all:hover,
