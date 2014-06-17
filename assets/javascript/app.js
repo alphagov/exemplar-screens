@@ -36,12 +36,12 @@
       } else {
         closeScreen(screen);
       }
-      
+
     });
 
     // Go to previous screen when in full-screen view
     $(".js-prev-screen").click(function( event ) {
-      var screen = $(this).parents('.screen'); 
+      var screen = $(this).parents('.screen');
 
       if(screen.prev().length){
         openScreen(screen.prev());
@@ -50,15 +50,27 @@
       }
     });
 
+    // Handle Keyboard
+    $(document).keydown(function( event ) {
+      // Find the currently zoomed screen
+      var screen = $('.zoomed-in');
+      switch (event.which) {
+        case 39: openScreen(screen.next()); break; // Right
+        case 37: openScreen(screen.prev()); break; // Left
+        case 27: closeScreen(screen); break;
+      }
+    });
+
+
     // Close full-screen view
     $(".js-close-screen").click(function( event ) {
-      var screen = $(this).parents('.screen');          
+      var screen = $(this).parents('.screen');
       closeScreen(screen);
     });
 
     // Slider
     $("#slider").change(function() {
-      updateSlider(this.value);  
+      updateSlider(this.value);
     });
 
     // Opens a screen in full-screen view
@@ -67,10 +79,10 @@
       $('.zoomed-in').removeClass('zoomed-in');
 
       screen.addClass('zoomed-in');
-      // Stop rest of page from scrolling when scrolling the popup   
+      // Stop rest of page from scrolling when scrolling the popup
       if ($(document).height() > $(window).height()) {
         var scrollTop = ($('html').scrollTop()) ? $('html').scrollTop() : $('body').scrollTop(); // Works for Chrome, Firefox, IE...
-        $('html').addClass('noscroll').css('top',-scrollTop);         
+        $('html').addClass('noscroll').css('top',-scrollTop);
       }
 
     };
@@ -105,7 +117,7 @@
   Handlebars.registerHelper("math", function(lvalue, operator, rvalue, options) {
     lvalue = parseFloat(lvalue);
     rvalue = parseFloat(rvalue);
-        
+
     return {
         "+": lvalue + rvalue,
         "-": lvalue - rvalue,
