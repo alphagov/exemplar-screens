@@ -28,7 +28,7 @@
     });
 
     // Go to next screen when in full-screen view
-    $(".js-next-screen").click(function ( event ) {
+    $(".js-next-screen").click(function( event ) {
       var screen = $(this).parents('.screen');
 
       if(screen.next().length){
@@ -40,7 +40,7 @@
     });
 
     // Go to previous screen when in full-screen view
-    $(".js-prev-screen").click(function ( event ) {
+    $(".js-prev-screen").click(function( event ) {
       var screen = $(this).parents('.screen');
 
       if(screen.prev().length){
@@ -51,11 +51,10 @@
     });
 
     // Handle Keyboard
-    $(document).keydown(function(event){
+    $(document).keydown(function( event ) {
       // Find the currently zoomed screen
       var screen = $('.zoomed-in');
       switch (event.which) {
-        case 13: event.preventDefault(); break;
         case 39: openScreen(screen.next()); break; // Right
         case 37: openScreen(screen.prev()); break; // Left
         case 27: closeScreen(screen); break;
