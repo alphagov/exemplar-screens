@@ -30,24 +30,19 @@
     // Go to next screen when in full-screen view
     $(".js-next-screen").click(function( event ) {
       var screen = $(this).parents('.screen');
-
-      if(screen.next().length){
-        openScreen(screen.next());
-      } else {
-        closeScreen(screen);
-      }
-
+      openScreen(screen.next());
     });
 
     // Go to previous screen when in full-screen view
     $(".js-prev-screen").click(function( event ) {
       var screen = $(this).parents('.screen');
+      openScreen(screen.prev());
+    });
 
-      if(screen.prev().length){
-        openScreen(screen.prev());
-      } else {
-        closeScreen(screen);
-      }
+    // Close full-screen view
+    $(".js-close-screen").click(function( event ) {
+      var screen = $(this).parents('.screen');
+      closeScreen(screen);
     });
 
     // Handle Keyboard
@@ -61,13 +56,6 @@
       }
     });
 
-
-    // Close full-screen view
-    $(".js-close-screen").click(function( event ) {
-      var screen = $(this).parents('.screen');
-      closeScreen(screen);
-    });
-
     // Slider
     $("#slider").change(function() {
       updateSlider(this.value);
@@ -78,14 +66,22 @@
 
       $('.zoomed-in').removeClass('zoomed-in');
 
-      screen.addClass('zoomed-in');
-      // Stop rest of page from scrolling when scrolling the popup
-      if ($(document).height() > $(window).height()) {
-        var scrollTop = ($('html').scrollTop()) ? $('html').scrollTop() : $('body').scrollTop(); // Works for Chrome, Firefox, IE...
-        $('html').addClass('noscroll').css('top',-scrollTop);
+      if(screen.length){
+        screen.addClass('zoomed-in');
+        // Stop rest of page from scrolling when scrolling the popup
+        if ($(document).height() > $(window).height()) {
+          var scrollTop = ($('html').scrollTop()) ? $('html').scrollTop() : $('body').scrollTop(); // Works for Chrome, Firefox, IE...
+          $('html').addClass('noscroll').css('top',-scrollTop);
+        }
+        
+      } else {
+        closeScreen(screen)
       }
 
+
+
     };
+
 
     // Closes a screen in full-screen view
     function closeScreen(screen){
