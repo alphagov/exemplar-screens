@@ -85,6 +85,11 @@ a{
 	border: 0;
 }
 
+.image::-webkit-scrollbar { 
+	width: 0 !important; 
+	height: 0 !important;
+}
+
 .screen.zoomed-in .image img:hover{
 	cursor: default;
 }
