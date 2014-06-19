@@ -252,6 +252,9 @@ html.noscroll {
    padding-left: 50px;
    padding-right: 200px;
 }
+.js-zoomed .userjourney{
+	overflow-x: hidden;
+}
 .userjourney .screen:last-child .arrow{
 	display: none;
 }

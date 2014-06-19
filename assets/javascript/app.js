@@ -45,7 +45,7 @@
       closeScreen(screen);
     });
 
-    // Handle Keyboard
+    // Handle keyboard
     $(document).keydown(function( event ) {
       // Find the currently zoomed screen
       var screen = $('.zoomed-in');
@@ -67,6 +67,7 @@
       $('.zoomed-in').removeClass('zoomed-in');
 
       if(screen.length){
+        $('body').addClass('js-zoomed');
         screen.addClass('zoomed-in');
         // Stop rest of page from scrolling when scrolling the popup
         if ($(document).height() > $(window).height()) {
@@ -87,6 +88,7 @@
     function closeScreen(screen){
 
       screen.removeClass('zoomed-in');
+      $('body').removeClass('js-zoomed');
 
       // Re-enable scrolling of rest of page
       var scrollTop = parseInt($('html').css('top'));
