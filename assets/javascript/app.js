@@ -100,7 +100,14 @@
 
       $('.image').css('font-size', slideAmount+"%");
 
-      // show notes if zoom is over 300%
+      // Allow v-scroll if zoom is over 100%
+      if (slideAmount > 100) {
+        $('.image').addClass('scrollable');
+      } else if (slideAmount <= 100) {
+        $('.image').removeClass('scrollable');
+      }
+
+      // Ahow notes if zoom is over 300%
       if (slideAmount > 300) {
         $('.note').addClass('visible');
       } else if (slideAmount <= 300) {

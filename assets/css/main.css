@@ -299,13 +299,15 @@ summary::-webkit-details-marker { display:none; }
 .image{
 	width: 10em;
     border: 1px solid #ccc;
-
 	height: 10em;
-	overflow: scroll;
-	overflow-x: hidden;
+	overflow: hidden;
 	background: #DEE0E2;
 	display: inline-block;
 	vertical-align: middle;
+}
+.image.scrollable{
+	overflow: scroll;
+	overflow-x: hidden;
 }
 .image:hover{
 	cursor: pointer;
