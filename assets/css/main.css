@@ -95,7 +95,9 @@ a{
 	width: 0 !important; 
 	height: 0 !important;
 }
-
+.screen.zoomed-in .image img{
+	margin-bottom: 0;
+}
 .screen.zoomed-in .image img:hover{
 	cursor: default;
 }
