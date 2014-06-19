@@ -63,6 +63,12 @@ a{
 	font-weight: bold;
 	margin-top: 22px;
 }
+.screen.zoomed-in .caption.hidden{
+	height: auto;
+}
+.screen.zoomed-in .caption.hidden h2{
+	display: block;
+}
 .screen.zoomed-in .caption .journey{
 	margin-left: 25px;
 	white-space: normal;
