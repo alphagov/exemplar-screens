@@ -21,7 +21,7 @@ a{
 }
 .exemplar-list{
 	padding-left: 0;
-	color: #AAA;
+	color: #6f777b;
 }
 .exemplar-list li{
 	font-size: 19px;
@@ -34,12 +34,12 @@ a{
   	text-decoration: none;
 }
 .app-header{
-	color: #AAA;
+	color: #6f777b;
 	font-size: 16px;
 	margin-top: 0;
 }
 .date{
-	color: #AAA;
+	color: #6f777b;
 	margin: 40px 0;
 	font-size: 16px;
 }
@@ -138,7 +138,7 @@ a{
 
 	font-size: 19px;
 
-	padding: 10px 30px;
+	padding: 8px 30px 4px 30px;
 	-webkit-box-shadow: 0 2px 0 #003518;
 	-moz-box-shadow: 0 2px 0 #003518;
 	box-shadow: 0 2px 0 #003518;
@@ -246,8 +246,8 @@ html.noscroll {
    overflow-y: hidden;
    white-space: nowrap;
    margin: 20px -50px 35px -50px;
-   border-top: 1px solid #ccc;
-   border-bottom: 1px solid #ccc;
+   border-top: 1px solid #bfc1c3;
+   border-bottom: 1px solid #bfc1c3;
    background: #f7f7f7;
    padding-left: 50px;
    padding-right: 200px;
@@ -312,7 +312,7 @@ summary::-webkit-details-marker { display:none; }
 }
 .image{
 	width: 8em;
-    border: 1px solid #ccc;
+    border: 1px solid #bfc1c3;
 	height: 8em;
 	overflow: hidden;
 	background: #DEE0E2;
