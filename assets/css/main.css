@@ -177,22 +177,6 @@ html.noscroll {
 }
 
 
-.js-close-all,
-.js-open-all{
-	font-size: 16px;
-	color: #005EA5;
-  	text-decoration: underline;
-}
-.js-close-all:hover,
-.js-open-all:hover{
-	color: #2E8ACA;
-  	cursor: pointer;
-  	text-decoration: none;
-}
-.js-close-all{
-	display: none;
-}
-
 /* ====================================================*/
 /* Full height images toggle */
 
@@ -224,6 +208,25 @@ html.noscroll {
 	margin: 28px 25px 0 25px;
 }
 
+
+/* ====================================================*/
+/* Open / Close all toggle */
+
+.js-close-all,
+.js-open-all{
+	font-size: 16px;
+	color: #005EA5;
+  	text-decoration: underline;
+}
+.js-close-all:hover,
+.js-open-all:hover{
+	color: #2E8ACA;
+  	cursor: pointer;
+  	text-decoration: none;
+}
+.js-close-all{
+	display: none;
+}
 
 
 /* ====================================================*/
@@ -297,9 +300,9 @@ summary::-webkit-details-marker { display:none; }
 	display: none;
 }
 .image{
-	width: 10em;
+	width: 8em;
     border: 1px solid #ccc;
-	height: 10em;
+	height: 8em;
 	overflow: hidden;
 	background: #DEE0E2;
 	display: inline-block;
@@ -331,6 +334,12 @@ summary::-webkit-details-marker { display:none; }
 	margin: 1.5em 0;
 	font-weight: normal;
 	margin-right: 25px;
+}
+.caption.hidden{
+	height: 50px;
+}
+.caption.hidden h2{
+	display: none;
 }
 .arrow{
 	display: inline-block;

@@ -107,7 +107,14 @@
         $('.image').removeClass('scrollable');
       }
 
-      // Ahow notes if zoom is over 300%
+      // Hide captions if zoom is less than 50%
+      if (slideAmount > 50) {
+        $('.caption').removeClass('hidden');
+      } else if (slideAmount <= 50) {
+        $('.caption').addClass('hidden');
+      }
+
+      // Show notes if zoom is over 300%
       if (slideAmount > 300) {
         $('.note').addClass('visible');
       } else if (slideAmount <= 300) {
