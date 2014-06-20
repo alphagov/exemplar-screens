@@ -24,7 +24,7 @@ Each exemplar has it's own numbered folder in '/exemplar'. Drop all your images 
 
 ### 2. Update the data file
 
-Edit is the data.js file in your numbered exemplar folder. It contains a few examples so you can see how the data should be structured.
+Edit the data.js file in your numbered exemplar folder. It contains a few examples so you can see how the data should be structured.
 
 ### 3. Update the index file
 
