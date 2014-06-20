@@ -38,10 +38,11 @@ a{
 	font-size: 16px;
 	margin-top: 0;
 }
-.date{
+.meta{
 	color: #6f777b;
-	margin: 40px 0;
+	margin: 75px 0 50px 0;
 	font-size: 16px;
+	width: 33.33%;
 }
 
 /* ====================================================*/
