@@ -1,5 +1,5 @@
 var data = {
-  "service": "17. Your tax account",
+  "service": "16. Digital self assessment",
   "last-updated": "[DATE HERE]",
   "userjourneys": [            
     {

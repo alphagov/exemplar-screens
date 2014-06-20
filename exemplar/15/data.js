@@ -1,5 +1,5 @@
 var data = {
-  "service": "Exemplar 15: PAYE for Employees",
+  "service": "15. PAYE for Employees",
   "last-updated": "12 June 2014",
   "userjourneys": [            
     {

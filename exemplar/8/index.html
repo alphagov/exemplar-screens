@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lte-ie8" lang="en"><![endif]--><!--[if gt IE 8]><!--><html lang="en">
+<!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <script src="../../assets/javascript/jquery-1.11.1.min.js"></script>
+  <script src="../../assets/javascript/handlebars-v1.3.0.js"></script>
+      <!--[if IE 8]>
+    <script type="text/javascript">
+      (function(){if(window.opera){return;}
+       setTimeout(function(){var a=document,g,b={families:(g=
+       ["nta"]),urls:["../../assets/css/fonts-ie8.css"]},
+       c="assets/govuk_template/javascripts/vendor/goog/webfont-debug.js",d="script",
+       e=a.createElement(d),f=a.getElementsByTagName(d)[0],h=g.length;WebFontConfig
+       ={custom:b},e.src=c,f.parentNode.insertBefore(e,f);for(;h=h-1;a.documentElement
+       .className+=' wf-'+g[h].replace(/\s/g,'').toLowerCase()+'-n4-loading');},0)
+      })()
+    </script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+    <link href="../../assets/css/fonts.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/main.css" media="screen" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+  <title>GOV.UK exemplar screenshots</title>
+
+  <script id="template" type="text/template">
+    <h1>{{service}}</h1>
+    <p>Scenarios: (<span class="js-open-all">open all</span><span class="js-close-all">close all</span>)</p>
+    {{#userjourneys}}
+    <details>
+    <summary>{{math @index "+" 1}}. {{title}}</summary>
+    <div class="userjourney">
+      {{#path}}
+      <div class="screen">
+        <div class="caption">
+          <span class="close js-close-screen">✕</span>
+          <span class="journey">{{../title}}</span>
+          <h2>{{math @index "+" 1}}. {{caption}}</h2>
+        </div>
+        <div class="image js-open-screen">
+            <img src="{{imgref}}" />
+        </div>
+        <div class="arrow">→</div>
+        <div class="note">
+          {{#if note}}
+          <p>{{note}}</p>
+          {{/if}}
+          <p class="next button js-next-screen">Next</p>
+          <p class="prev button js-prev-screen">Prev</p>
+        </div>
+      </div>
+      {{/path}}
+    </div>
+    </details>
+    {{/userjourneys}}
+    <p class="meta">Last updated on {{last-updated}}.
+      These screenshots are subject to change and do not necessarily reflect any current or 
+      future iteration of this service.
+    </p>
+  </script>
+
+</head>
+<body>
+
+<div class="toolbar">
+  <input id="slider" type="range" min="5" max="500" step="5" value="100" title="zoom screen size" />
+  <p class="js-full-height" title="Toggle full height on screens">Full height</p>
+</div>
+
+
+<p class="app-header"><a href="../../index.html">Home</a></p>
+
+<div id="content"></div>
+
+<script src="data.js"></script>
+<script src="../../assets/javascript/app.js"></script>
+
+</body>
+</html>

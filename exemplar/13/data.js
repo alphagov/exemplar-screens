@@ -1,6 +1,6 @@
 var data = {
-  "service": "17. Your tax account",
-  "last-updated": "[DATE HERE]",
+  "service": "Claim Personal Independence Payment",
+  "last-updated": "[DATE]",
   "userjourneys": [            
     {
       "title": "[TITLE OF SCENARIO 1]",

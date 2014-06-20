@@ -1,5 +1,5 @@
 var data = {
-  "service": "[NAME OF EXEMPLAR]",
+  "service": "8. Rural support (Common Agricultural Policy)",
   "last-updated": "[DATE HERE]",
   "userjourneys": [            
     {

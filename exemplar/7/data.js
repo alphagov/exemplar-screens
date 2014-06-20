@@ -1,5 +1,5 @@
 var data = {
-  "service": "17. Your tax account",
+  "service": "7. Waste carrier registration",
   "last-updated": "[DATE HERE]",
   "userjourneys": [            
     {
