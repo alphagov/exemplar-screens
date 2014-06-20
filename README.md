@@ -28,5 +28,5 @@ Edit the data.js file in your numbered exemplar folder. It contains a few exampl
 
 ### 3. Update the index file
 
-Once you're done, don't forget to add a link to your exemplar from the 'index.html' file in the root of this repository (not the one in your numberd exemplar folder).
+Once you're done, don't forget to add a link to your exemplar from the 'index.html' file in the root of this repository (not the one in your numbered exemplar folder).
 
