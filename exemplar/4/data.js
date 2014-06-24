@@ -11,7 +11,10 @@ var data = {
       },{
         "caption": "View patent details",
         "imgref": "images/2.patent-details.png",
-        "note": "User views patent details and clicks 'Add another'. If they click 'Remove' it just removes the patent."
+        "note": [
+          "User views patent details and clicks 'Add another'.",
+          "If they click 'Remove' it just removes the patent."
+        ]
       },{
         "caption": "Add another patent",
         "imgref": "images/3.add-another.png",

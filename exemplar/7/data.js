@@ -6,10 +6,15 @@ var data = {
       "title": "[TITLE OF SCENARIO 1]",
       "path": [{
         "caption": "[CAPTION FOR SCREEN 1]",
-        "imgref": "images/[SCREEN 1 FILENAME]"
+        "imgref": "images/[SCREEN 1 FILENAME]",
+        "note": [
+          "This is a note.",
+          "This is another note."
+        ]
       },{
         "caption": "[CAPTION FOR SCREEN 2]",
-        "imgref": "images/[SCREEN 2 FILENAME]"
+        "imgref": "images/[SCREEN 2 FILENAME]",
+        "note": "This is a note."
       },{
         "caption": "[CAPTION FOR SCREEN 2]",
         "imgref": "images/[SCREEN 2 FILENAME]"
