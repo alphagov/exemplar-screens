@@ -190,6 +190,10 @@ html.noscroll {
 	z-index: 100;
 }
 
+/* Quickfix - hide toolbar when zoomed */
+.js-zoomed .toolbar {
+	display: none;
+}
 
 /* ====================================================*/
 /* Full height images toggle */
