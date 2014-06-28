@@ -24,6 +24,9 @@ a{
 	width: 66.66%;
 	margin-bottom: 40px;
 }
+.intro a {
+	white-space: nowrap;
+}
 .exemplar-list{
 	padding-left: 0;
 	color: #6f777b;
