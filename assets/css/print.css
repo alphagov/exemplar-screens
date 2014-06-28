@@ -1,0 +1,123 @@
+/* ====================================================*/
+/* Print version */
+
+
+/* Hide these */
+
+.js-close-all,
+.js-open-all,
+.js-close-screen,
+.toolbar,
+.app-header,
+.scenario-intro,
+.journey,
+.button{
+	display: none;
+}
+
+/* Core styles shared with screen view */
+
+body{
+	font-family: 'nta', sans-serif;
+	padding: 25px 50px 50px;
+	margin: 0;
+	padding-bottom: 100px;
+}
+h1{
+	margin-bottom: 50px;
+	font-size: 40px;
+	margin-top: 10px;
+}
+h2{
+	font-size: 20px;
+}
+summary{
+	font-size: 19px;
+	padding-left: 16px;
+	padding-top: 3px;
+	text-indent: -16px;
+	font-weight: bold;
+	margin-bottom:  10px;
+}
+summary::-webkit-details-marker { display:none; }
+.screen{
+    display: inline-block;
+    padding-right: 10px;
+		position: relative;
+    vertical-align: top;
+    margin-bottom: 50px;
+}
+.screen:last-child:after{
+	content: "";
+}
+.screen:after{
+	content: "→";
+	display: inline-block;
+	font-size: 30px;
+	margin-left: 20px;
+	vertical-align: middle;
+	display: none;
+}
+.image{
+	width: 8em;
+  border: 1px solid #bfc1c3;
+	height: 8em;
+	overflow: hidden;
+	background: #DEE0E2;
+	display: inline-block;
+	vertical-align: middle;
+}
+.image img{
+	width: 100%;
+	margin-bottom: 100px;
+}
+.arrow{
+	display: inline-block;
+	font-size: 20px;
+	margin-left: 10px;
+	vertical-align: top;
+	margin-top: 20px;
+}
+.userjourney .screen:last-child .arrow{
+	display: none;
+}
+.meta{
+	color: #6f777b;
+	margin: 75px 0 50px 0;
+	font-size: 16px;
+	width: 50%;
+}
+
+/* Additional print styles */
+
+.scenario{
+	display: inline-block;
+	margin: 0 2em 10em 0;
+}
+.userjourney{
+	background: none;
+	border: none;
+	overflow: visible;
+	white-space: normal;
+	margin: 0;
+	padding: 0;
+}
+.image{
+	height: auto;
+	font-size: 10%;
+}
+.image img{
+	margin-bottom: 0;
+}
+.note{
+	margin-top: 10px;
+	display: block;
+	width: 4em;
+}
+.caption{
+	margin: 0;
+}
+.caption h2,
+.note p{
+	font-size: 6px;
+}

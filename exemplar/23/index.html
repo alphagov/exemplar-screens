@@ -20,14 +20,16 @@
     <!--[if gte IE 9]><!-->
     <link href="../../assets/css/fonts.css" media="all" rel="stylesheet" type="text/css" />
     <link href="../../assets/css/main.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../../assets/css/print.css" media="print" rel="stylesheet" type="text/css">
     <!--<![endif]-->
   <title>GOV.UK exemplar screenshots</title>
 
   <script id="template" type="text/template">
     <h1>{{service}}</h1>
-    <p>Scenarios: (<span class="js-open-all">open all</span><span class="js-close-all">close all</span>)</p>
+
+    <p class="scenario-intro">Scenarios: (<span class="js-open-all">open all</span><span class="js-close-all">close all</span>)</p>
     {{#userjourneys}}
-    <details>
+    <details class="scenario">
     <summary>{{math @index "+" 1}}. {{title}}</summary>
     <div class="userjourney">
       {{#path}}
@@ -53,8 +55,9 @@
     </div>
     </details>
     {{/userjourneys}}
+
     <p class="meta">Last updated on {{last-updated}}.
-      These screenshots are subject to change and do not necessarily reflect any current or 
+      These screenshots are subject to change and do not necessarily reflect any current or
       future iteration of this service.
     </p>
   </script>

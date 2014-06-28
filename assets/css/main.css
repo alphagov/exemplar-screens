@@ -34,7 +34,7 @@ a{
 	margin-bottom:  10px;
 	list-style-type: none;
 }
-.exemplar-list a:hover{	
+.exemplar-list a:hover{
 	color: #2E8ACA;
   	text-decoration: none;
 }
@@ -55,16 +55,17 @@ a{
 
 .screen.zoomed-in{
 	position: fixed;
-    background: #f7f7f7;
+
+	background: #FFF;
 	width: 100%;
 	height: 100%;
 	top: 0;
 	left: 0;
-	z-index: 1001;	
+	z-index: 1001;
 }
 .screen.zoomed-in .caption{
 	float: right;
-	width: 25%;
+	width: 24.5%;
 	font-size: 19px;
 	font-weight: bold;
 	margin-top: 22px;
@@ -95,10 +96,12 @@ a{
     width: 75%;
 	float: left;
 	border: 0;
+	border-right: 1px solid #BFC1C3;
+	box-sizing: padding-box;
 }
 
-.image::-webkit-scrollbar { 
-	width: 0 !important; 
+.image::-webkit-scrollbar {
+	width: 0 !important;
 	height: 0 !important;
 }
 .screen.zoomed-in .image img{
@@ -175,7 +178,7 @@ a{
 html.noscroll {
     position: fixed;
     top: 0;
-    left: 0; 
+    left: 0;
     overflow-y: scroll;
     width: 100%;
 }
@@ -251,10 +254,10 @@ html.noscroll {
    overflow-x: scroll;
    overflow-y: hidden;
    white-space: nowrap;
-   margin: 20px -50px 35px -50px;
+   margin: 10px -50px 35px -50px;
    border-top: 1px solid #bfc1c3;
    border-bottom: 1px solid #bfc1c3;
-   background: #f7f7f7;
+   /* background: #f7f7f7; */
    padding-left: 50px;
    padding-right: 200px;
 }
@@ -301,24 +304,14 @@ summary::-webkit-details-marker { display:none; }
 .screen{
     display: inline-block;
     padding-right: 10px;
-	position: relative;
+		position: relative;
     vertical-align: top;
     margin-bottom: 50px;
 }
-.screen:last-child:after{
-	content: "";
-}
-.screen:after{
-	content: "→";
-	display: inline-block;
-	font-size: 30px;
-	margin-left: 20px;
-	vertical-align: middle;
-	display: none;
-}
 .image{
 	width: 8em;
-    border: 1px solid #bfc1c3;
+
+	border: 1px solid #BFC1C3;
 	height: 8em;
 	overflow: hidden;
 	background: #DEE0E2;
@@ -357,7 +350,7 @@ summary::-webkit-details-marker { display:none; }
 	margin-right: 25px;
 }
 .caption.hidden{
-	height: 50px;
+	height: 10px;
 }
 .caption.hidden h2{
 	display: none;
