@@ -13,7 +13,7 @@ h1{
 	font-size: 40px;
 	margin-top: 10px;
 }
-h2{
+h2, h3{
 	font-size: 20px;
 }
 a{
@@ -54,9 +54,9 @@ a{
 }
 
 /* ====================================================*/
-/* Zoomed-in screen */
+/* Zoomed-in image */
 
-.screen.zoomed-in{
+.image.zoomed-in{
 	position: fixed;
 
 	background: #FFF;
@@ -66,33 +66,33 @@ a{
 	left: 0;
 	z-index: 1001;
 }
-.screen.zoomed-in .caption{
+.image.zoomed-in .image-title{
 	float: right;
 	width: 24.5%;
 	font-size: 19px;
 	font-weight: bold;
 	margin-top: 22px;
 }
-.screen.zoomed-in .caption.hidden{
+.image.zoomed-in .image-title.hidden{
 	height: auto;
 }
-.screen.zoomed-in .caption.hidden h2{
+.image.zoomed-in .image-title.hidden h3{
 	display: block;
 }
-.screen.zoomed-in .caption .journey{
+.image.zoomed-in .image-title .journey{
 	margin-left: 25px;
 	white-space: normal;
 	padding-right: 45px;
 	font-size: 16px;
 }
-.screen.zoomed-in .caption h2{
+.image.zoomed-in .image-title h3{
 	margin-left: 25px;
 	white-space: normal;
 	padding-right: 45px;
 	font-size: 19px;
 	font-weight: bold;
 }
-.screen.zoomed-in .image{
+.image.zoomed-in .image-wrapper{
 	height: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -103,20 +103,20 @@ a{
 	box-sizing: padding-box;
 }
 
-.image::-webkit-scrollbar {
+.image-wrapper::-webkit-scrollbar {
 	width: 0 !important;
 	height: 0 !important;
 }
-.screen.zoomed-in .image img{
+.image.zoomed-in .image-wrapper img{
 	margin-bottom: 0;
 }
-.screen.zoomed-in .image img:hover{
+.image.zoomed-in .image-wrapper img:hover{
 	cursor: default;
 }
-.screen.zoomed-in .arrow{
+.image.zoomed-in .arrow{
 	display: none;
 }
-.screen.zoomed-in .close{
+.image.zoomed-in .close{
 	display: block;
 	float: right;
 	margin-right: 25px;
@@ -124,23 +124,23 @@ a{
 	font-size: 16px;
 	padding-top: 4px;
 }
-.screen.zoomed-in .close:hover{
+.image.zoomed-in .close:hover{
 	text-decoration: underline;
 	cursor: pointer;
 }
-.screen.zoomed-in .note{
+.image.zoomed-in .note{
 	display: block;
 	float: right;
 	width: 25%;
 }
-.screen.zoomed-in .note p{
+.image.zoomed-in .note p{
 	white-space: normal;
 	margin-left: 25px;
 	font-size: 19px;
 	margin-top: 0;
 }
 
-.screen.zoomed-in .button{
+.image.zoomed-in .button{
 	display: none;
 	display: inline-block;
 	background: #DEE0E2;
@@ -157,24 +157,24 @@ a{
 	-webkit-font-smoothing: antialiased;
 }
 
-.screen.zoomed-in .button:hover{
+.image.zoomed-in .button:hover{
 	cursor: pointer;
 }
 
-.screen.zoomed-in .button.next{
+.image.zoomed-in .button.next{
 	background-color: #00823B;
 	color: white;
 	right: 25px;
 }
-.screen.zoomed-in .button.next:hover{
+.image.zoomed-in .button.next:hover{
 	background-color: #00692F;
 }
-.screen.zoomed-in .button.next:active{
+.image.zoomed-in .button.next:active{
 	-webkit-box-shadow: 0 0 0 #00823B;
 	-moz-box-shadow: 0 0 0 #00823b;
 	box-shadow: 0 0 0 #00823B;
 }
-.screen.zoomed-in .journey{
+.image.zoomed-in .journey{
 	display: block;
 	margin-bottom: 20px;
 }
@@ -216,10 +216,10 @@ html.noscroll {
 	cursor: pointer;
 }
 
-.full-height .image{
+.full-height .image-wrapper{
 	height: auto;
 }
-.full-height .image img{
+.full-height .image-wrapper img{
 	margin-bottom: 0;
 }
 
@@ -254,9 +254,9 @@ html.noscroll {
 
 
 /* ====================================================*/
-/* User journeys */
+/* Image set */
 
-.userjourney{
+.image-set-images{
    width: auto;
    overflow-x: scroll;
    overflow-y: hidden;
@@ -264,58 +264,55 @@ html.noscroll {
    margin: 10px -50px 35px -50px;
    border-top: 1px solid #bfc1c3;
    border-bottom: 1px solid #bfc1c3;
-   /* background: #f7f7f7; */
    padding-left: 50px;
    padding-right: 200px;
 }
-.js-zoomed .userjourney{
+.js-zoomed .image-set-images{
 	overflow-x: hidden;
 }
-.userjourney .screen:last-child .arrow{
+.image-set-images .image:last-child .arrow{
 	display: none;
 }
-details{
+.js-details{
 	margin: 10px 0;
 }
-summary{
-	font-size: 19px;
-	padding-left: 16px;
-	padding-top: 3px;
-	text-indent: -16px;
-	text-decoration: underline;
-	color: #2E3191;
-	margin-bottom:  10px;
-	outline: none;
+.image-set-title{
 	display: inline-block;
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 19px;
+	font-weight: normal;
+	text-decoration: underline;
+	cursor: pointer;
+	color: #2E3191;
 }
-summary:hover{
+.image-set-title:hover{
   text-decoration: none;
   cursor: pointer;
   color: #2E8ACA;
 }
-details[open] summary{
+.image-set-title.open{
 	color: black;
 	font-weight: bold;
 	text-decoration: none;
 }
-details[open] summary:hover{
+.image-set-title.open:hover{
 	text-decoration: underline;
 }
-summary::-webkit-details-marker { display:none; }
 
 
 
 /* ====================================================*/
 /* Screens */
 
-.screen{
+.image{
     display: inline-block;
     padding-right: 10px;
 		position: relative;
     vertical-align: top;
     margin-bottom: 50px;
 }
-.image{
+.image-wrapper{
 	width: 8em;
 
 	border: 1px solid #BFC1C3;
@@ -325,14 +322,14 @@ summary::-webkit-details-marker { display:none; }
 	display: inline-block;
 	vertical-align: middle;
 }
-.image.scrollable{
+.image-wrapper.scrollable{
 	overflow: scroll;
 	overflow-x: hidden;
 }
-.image:hover{
+.image-wrapper:hover{
 	cursor: pointer;
 }
-.image img{
+.image-wrapper img{
 	width: 100%;
 	margin-bottom: 100px;
 }
@@ -346,20 +343,20 @@ summary::-webkit-details-marker { display:none; }
 .close{
 	display: none;
 }
-.caption{
+.image-title{
 	margin: 25px 0 15px 0;
 }
-.caption h2,
+.image-title h3,
 .note p{
 	font-size: 16px;
 	margin: 0 0 10px 0;
 	font-weight: normal;
 	margin-right: 25px;
 }
-.caption.hidden{
+.image-title.hidden{
 	height: 10px;
 }
-.caption.hidden h2{
+.image-title.hidden h3{
 	display: none;
 }
 .arrow{

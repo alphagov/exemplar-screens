@@ -9,7 +9,7 @@
 .js-close-screen,
 .toolbar,
 .app-header,
-.scenario-intro,
+.exemplar-intro,
 .journey,
 .button{
 	display: none;
@@ -28,10 +28,14 @@ h1{
 	font-size: 40px;
 	margin-top: 10px;
 }
-h2{
+h2, h3{
 	font-size: 20px;
 }
-summary{
+.image-set-title{
+	display: none;
+}
+.image-set-title.open{
+	display: block;
 	font-size: 19px;
 	padding-left: 16px;
 	padding-top: 3px;
@@ -39,18 +43,20 @@ summary{
 	font-weight: bold;
 	margin-bottom:  10px;
 }
-summary::-webkit-details-marker { display:none; }
-.screen{
+.image-title h3{
+	font-weight: normal;
+}
+.image{
     display: inline-block;
     padding-right: 10px;
 		position: relative;
     vertical-align: top;
     margin-bottom: 50px;
 }
-.screen:last-child:after{
+.image:last-child:after{
 	content: "";
 }
-.screen:after{
+.image:after{
 	content: "→";
 	display: inline-block;
 	font-size: 30px;
@@ -58,7 +64,7 @@ summary::-webkit-details-marker { display:none; }
 	vertical-align: middle;
 	display: none;
 }
-.image{
+.image-wrapper{
 	width: 8em;
   border: 1px solid #bfc1c3;
 	height: 8em;
@@ -67,7 +73,7 @@ summary::-webkit-details-marker { display:none; }
 	display: inline-block;
 	vertical-align: middle;
 }
-.image img{
+.image-wrapper img{
 	width: 100%;
 	margin-bottom: 100px;
 }
@@ -78,7 +84,7 @@ summary::-webkit-details-marker { display:none; }
 	vertical-align: top;
 	margin-top: 20px;
 }
-.userjourney .screen:last-child .arrow{
+.image-set-images .image:last-child .arrow{
 	display: none;
 }
 .meta{
@@ -90,11 +96,11 @@ summary::-webkit-details-marker { display:none; }
 
 /* Additional print styles */
 
-.scenario{
+.image-set{
 	display: inline-block;
 	margin: 0 2em 10em 0;
 }
-.userjourney{
+.image-set-images{
 	background: none;
 	border: none;
 	overflow: visible;
@@ -102,11 +108,11 @@ summary::-webkit-details-marker { display:none; }
 	margin: 0;
 	padding: 0;
 }
-.image{
+.image-wrapper{
 	height: auto;
 	font-size: 10%;
 }
-.image img{
+.image-wrapper img{
 	margin-bottom: 0;
 }
 .note{
@@ -114,10 +120,10 @@ summary::-webkit-details-marker { display:none; }
 	display: block;
 	width: 4em;
 }
-.caption{
+.image-title{
 	margin: 0;
 }
-.caption h2,
+.image-title h3,
 .note p{
 	font-size: 6px;
 }

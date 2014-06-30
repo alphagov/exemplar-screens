@@ -1,53 +1,65 @@
 
   $(document).ready(function(){
 
-
     // Full height images toggle
     $(".js-full-height").click(function( event ) {
       $('body').toggleClass('full-height');
     });
 
+    // Close all scenarios by default
+    $('.image-set-images').hide();
+
+    // toggle a scenario
+    $(".image-set-title").click(function( event ) {
+      $(this).toggleClass('open')
+      $(this).next().toggle();
+    });
+
     // Open all scenarios
     $(".js-open-all").click(function( event ) {
-      $('details').attr('open', true);
+
+      $('.image-set-images').show();
+      $('.image-set-title').addClass('open');
       $(".js-close-all").show();
       $(this).hide();
     });
 
     // Close all scenarios
     $(".js-close-all").click(function( event ) {
-      $('details').attr('open', false);
+
+      $('.image-set-images').hide();
+      $('.image-set-title').removeClass('open');
       $(".js-open-all").show();
       $(this).hide();
     });
 
-    // Opens full-screen view of current screen
+    // Opens full-screen view of current image
     $(".js-open-screen").click(function( event ) {
-      var screen = $(this).parents('.screen')
+      var screen = $(this).parents('.image')
       openScreen(screen);
     });
 
-    // Go to next screen when in full-screen view
+    // Go to next image when in full-screen view
     $(".js-next-screen").click(function( event ) {
-      var screen = $(this).parents('.screen');
+      var screen = $(this).parents('.image');
       openScreen(screen.next());
     });
 
-    // Go to previous screen when in full-screen view
+    // Go to previous image when in full-screen view
     $(".js-prev-screen").click(function( event ) {
-      var screen = $(this).parents('.screen');
+      var screen = $(this).parents('.image');
       openScreen(screen.prev());
     });
 
     // Close full-screen view
     $(".js-close-screen").click(function( event ) {
-      var screen = $(this).parents('.screen');
+      var screen = $(this).parents('.image');
       closeScreen(screen);
     });
 
     // Handle keyboard
     $(document).keydown(function( event ) {
-      // Find the currently zoomed screen
+      // Find the currently zoomed image
       var screen = $('.zoomed-in');
       switch (event.which) {
         case 39: openScreen(screen.next()); break; // Right
@@ -61,7 +73,7 @@
       updateSlider(this.value);
     });
 
-    // Opens a screen in full-screen view
+    // Opens an image in full-screen view
     function openScreen(screen){
 
       $('.zoomed-in').removeClass('zoomed-in');
@@ -84,7 +96,7 @@
     };
 
 
-    // Closes a screen in full-screen view
+    // Closes an image in full-screen view
     function closeScreen(screen){
 
       screen.removeClass('zoomed-in');
@@ -100,20 +112,20 @@
     // Zoom slider
     function updateSlider(slideAmount) {
 
-      $('.image').css('font-size', slideAmount+"%");
+      $('.image-wrapper').css('font-size', slideAmount+"%");
 
       // Allow v-scroll if zoom is over 100%
       if (slideAmount > 100) {
-        $('.image').addClass('scrollable');
+        $('.image-wrapper').addClass('scrollable');
       } else if (slideAmount <= 100) {
-        $('.image').removeClass('scrollable');
+        $('.image-wrapper').removeClass('scrollable');
       }
 
       // Hide captions if zoom is less than 50%
       if (slideAmount > 50) {
-        $('.caption').removeClass('hidden');
+        $('.image-title').removeClass('hidden');
       } else if (slideAmount <= 50) {
-        $('.caption').addClass('hidden');
+        $('.image-title').addClass('hidden');
       }
 
       // Show notes if zoom is over 300%

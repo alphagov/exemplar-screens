@@ -27,19 +27,20 @@
   <script id="template" type="text/template">
     <h1>{{service}}</h1>
 
-    <p class="scenario-intro">Scenarios: (<span class="js-open-all">open all</span><span class="js-close-all">close all</span>)</p>
+    <p class="exemplar-intro">Scenarios: (<span class="js-open-all">open all</span><span class="js-close-all">close all</span>)</p>
+
     {{#userjourneys}}
-    <details class="scenario">
-    <summary>{{math @index "+" 1}}. {{title}}</summary>
-    <div class="userjourney">
+    <div class="image-set">
+    <h2 class="image-set-title">{{math @index "+" 1}}. {{title}}</h2>
+    <div class="image-set-images">
       {{#path}}
-      <div class="screen">
-        <div class="caption">
+      <div class="image">
+        <div class="image-title">
           <span class="close js-close-screen">✕</span>
           <span class="journey">{{../title}}</span>
-          <h2>{{math @index "+" 1}}. {{caption}}</h2>
+          <h3>{{math @index "+" 1}}. {{caption}}</h3>
         </div>
-        <div class="image js-open-screen">
+        <div class="image-wrapper js-open-screen">
             <img src="{{imgref}}" />
         </div>
         <div class="arrow">→</div>
@@ -53,7 +54,7 @@
       </div>
       {{/path}}
     </div>
-    </details>
+    </div>
     {{/userjourneys}}
 
     <p class="meta">Last updated on {{last-updated}}.
