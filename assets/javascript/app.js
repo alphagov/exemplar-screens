@@ -74,7 +74,7 @@
           var scrollTop = ($('html').scrollTop()) ? $('html').scrollTop() : $('body').scrollTop(); // Works for Chrome, Firefox, IE...
           $('html').addClass('noscroll').css('top',-scrollTop);
         }
-        
+
       } else {
         closeScreen(screen)
       }
@@ -139,8 +139,7 @@
     }[operator];
   });
 
-  var template = document.getElementById('template').innerText,
-      hb_compiled = Handlebars.compile(template);
+  var template = document.getElementById('template').innerHTML
 
 
 
