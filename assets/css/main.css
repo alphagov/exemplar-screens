@@ -73,7 +73,7 @@ a{
 }
 .image.zoomed-in .image-title{
 	float: right;
-	width: 24.5%;
+	width: 28%;
 	font-size: 19px;
 	font-weight: bold;
 	margin-top: 22px;
@@ -92,6 +92,7 @@ a{
 }
 .image.zoomed-in .image-title h3{
 	margin-left: 25px;
+	margin-top: 30px;
 	white-space: normal;
 	padding-right: 45px;
 	font-size: 19px;
@@ -101,7 +102,8 @@ a{
 	height: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
-    width: 75%;
+
+	width: 71.1%;
 	float: left;
 	border: 0;
 	border-right: 1px solid #BFC1C3;
@@ -114,6 +116,7 @@ a{
 }
 .image.zoomed-in .image-wrapper img{
 	margin-bottom: 0;
+	max-width: 1024px;
 }
 .image.zoomed-in .image-wrapper img:hover{
 	cursor: default;
@@ -124,10 +127,9 @@ a{
 .image.zoomed-in .close{
 	display: block;
 	float: right;
-	margin-right: 25px;
+	margin-right: 30px;
 	font-weight: normal;
 	font-size: 16px;
-	padding-top: 4px;
 }
 .image.zoomed-in .close:hover{
 	text-decoration: underline;
@@ -136,20 +138,19 @@ a{
 .image.zoomed-in .note{
 	display: block;
 	float: right;
-	width: 25%;
+	width: 28%;
 }
 .image.zoomed-in .note p{
 	white-space: normal;
-	margin-left: 25px;
+	margin: 0 30px 25px 25px;
 	font-size: 19px;
-	margin-top: 0;
 }
 
 .image.zoomed-in .button{
 	display: none;
 	display: inline-block;
 	background: #DEE0E2;
-	margin: 25px 0;
+	margin: 30px 0;
 	position: fixed;
 	bottom: 0;
 
@@ -169,7 +170,7 @@ a{
 .image.zoomed-in .button.next{
 	background-color: #00823B;
 	color: white;
-	right: 25px;
+	right: 30px;
 }
 .image.zoomed-in .button.next:hover{
 	background-color: #00692F;
@@ -182,6 +183,7 @@ a{
 .image.zoomed-in .journey{
 	display: block;
 	margin-bottom: 20px;
+	font-weight: normal;
 }
 html.noscroll {
     position: fixed;
