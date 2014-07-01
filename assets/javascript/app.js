@@ -40,8 +40,7 @@
 
     });
 
-        // If there's only one image set, don't bother with all the toggle stuff
-
+    // If there's only one image set, don't bother with all the toggle stuff
     if($('.image-set-title').length == 1) {
       $('.image-set-title')[0].click();
       $('.all-toggle').hide();
@@ -114,7 +113,11 @@
     // Opens an image in full-screen view
     function openScreen(screen){
 
+      // Close any currently zoomed in images
       $('.zoomed-in').removeClass('zoomed-in');
+
+      // Scroll all images back to top
+      $('.image-wrapper').scrollTop(0);
 
       if(screen.length){
         $('body').addClass('js-zoomed');
@@ -124,18 +127,18 @@
           var scrollTop = ($('html').scrollTop()) ? $('html').scrollTop() : $('body').scrollTop(); // Works for Chrome, Firefox, IE...
           $('html').addClass('noscroll').css('top',-scrollTop);
         }
-
       } else {
         closeScreen(screen)
       }
-
-
 
     };
 
 
     // Closes an image in full-screen view
     function closeScreen(screen){
+
+      // Scroll all images back to top
+      $('.image-wrapper').scrollTop(0);
 
       screen.removeClass('zoomed-in');
       $('body').removeClass('js-zoomed');
@@ -146,6 +149,8 @@
       $('html,body').scrollTop(-scrollTop);
 
     };
+
+
 
     // Zoom slider
     function updateSlider(slideAmount) {

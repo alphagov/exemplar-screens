@@ -100,14 +100,12 @@ a{
 }
 .image.zoomed-in .image-wrapper{
 	height: 100%;
-    overflow-y: scroll;
-    overflow-x: hidden;
-
+  overflow-y: scroll;
+  overflow-x: hidden;
 	width: 71.1%;
 	float: left;
 	border: 0;
 	border-right: 1px solid #BFC1C3;
-	box-sizing: padding-box;
 }
 
 .image-wrapper::-webkit-scrollbar {
@@ -236,7 +234,7 @@ html.noscroll {
 
 #slider{
 	float: right;
-	margin: 28px 25px 0 25px;
+	margin: 28px 25px 0 50px;
 }
 
 
@@ -320,8 +318,8 @@ html.noscroll {
     margin-bottom: 50px;
 }
 .image-wrapper{
+	position: relative;
 	width: 8em;
-
 	border: 1px solid #BFC1C3;
 	height: 8em;
 	overflow: hidden;
@@ -337,6 +335,7 @@ html.noscroll {
 	cursor: pointer;
 }
 .image-wrapper img{
+	position: absolute;
 	width: 100%;
 	margin-bottom: 100px;
 }
