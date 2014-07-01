@@ -10,6 +10,8 @@
     $('.image-set-images').hide();
     $('.toolbar').hide();
 
+
+
     // toggle a scenario
     $(".image-set-title").click(function( event ) {
       $(this).toggleClass('open')
@@ -37,6 +39,13 @@
       }
 
     });
+
+        // If there's only one image set, don't bother with all the toggle stuff
+
+    if($('.image-set-title').length == 1) {
+      $('.image-set-title')[0].click();
+      $('.all-toggle').hide();
+    }
 
     // Open all scenarios
     $(".js-open-all").click(function( event ) {
