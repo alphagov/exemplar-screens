@@ -81,7 +81,7 @@
     });
 
     // Slider
-    $("#slider").change(function() {
+    $("#slider").on("input change", function() {
       updateSlider(this.value);
     });
 
