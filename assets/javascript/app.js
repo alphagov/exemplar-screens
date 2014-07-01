@@ -14,10 +14,16 @@
     $(".image-set-title").click(function( event ) {
       $(this).toggleClass('open')
       $(this).next().toggle();
+
+      // Show toolbar if at least one set is open
       if ($('.image-set-title.open').length) {
         $('.toolbar').show();
       } else {
         $('.toolbar').hide();
+
+        // If all sets are closed manually, make sure the toggle is set to 'Open all'
+        $(".js-close-all").hide();
+        $(".js-open-all").show();
       }
     });
 
