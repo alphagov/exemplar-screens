@@ -20,11 +20,22 @@
         $('.toolbar').show();
       } else {
         $('.toolbar').hide();
+      }
 
-        // If all sets are closed manually, make sure the toggle is set to 'Open all'
+      // If all are open, make sure toggle is set to 'Close all'
+      if ($('.image-set-title').length == $('.image-set-title.open').length){
+        console.log('all open!');
+        $(".js-close-all").show();
+        $(".js-open-all").hide();
+      }
+
+      // If all closed, make sure toggle is set to 'Open all'
+      if (!$('.image-set-title.open').length) {
+        console.log('all closed!');
         $(".js-close-all").hide();
         $(".js-open-all").show();
       }
+
     });
 
     // Open all scenarios
