@@ -216,7 +216,7 @@ html.noscroll {
 	text-indent: -9999px;
 	width: 15px;
 	height: 23px;
-	background: url(full-height.png);
+	background-image: url(full-height.png);
 	margin-top: 27px;
 }
 .js-full-height:hover{

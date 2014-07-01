@@ -8,11 +8,17 @@
 
     // Close all scenarios by default
     $('.image-set-images').hide();
+    $('.toolbar').hide();
 
     // toggle a scenario
     $(".image-set-title").click(function( event ) {
       $(this).toggleClass('open')
       $(this).next().toggle();
+      if ($('.image-set-title.open').length) {
+        $('.toolbar').show();
+      } else {
+        $('.toolbar').hide();
+      }
     });
 
     // Open all scenarios
@@ -21,6 +27,7 @@
       $('.image-set-images').show();
       $('.image-set-title').addClass('open');
       $(".js-close-all").show();
+      $('.toolbar').show();
       $(this).hide();
     });
 
@@ -30,6 +37,7 @@
       $('.image-set-images').hide();
       $('.image-set-title').removeClass('open');
       $(".js-open-all").show();
+      $('.toolbar').hide();
       $(this).hide();
     });
 
@@ -56,6 +64,10 @@
       var screen = $(this).parents('.image');
       closeScreen(screen);
     });
+
+
+
+
 
     // Handle keyboard
     $(document).keydown(function( event ) {
