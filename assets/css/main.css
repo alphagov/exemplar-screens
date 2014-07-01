@@ -170,7 +170,7 @@ a{
 .image.zoomed-in .button.next{
 	background-color: #00823B;
 	color: white;
-	right: 30px;
+	right: 0;
 }
 .image.zoomed-in .button.next:hover{
 	background-color: #00692F;
