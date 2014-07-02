@@ -318,7 +318,6 @@ html.noscroll {
     margin-bottom: 50px;
 }
 .image-wrapper{
-	position: relative;
 	width: 8em;
 	border: 1px solid #BFC1C3;
 	height: 8em;
@@ -335,7 +334,6 @@ html.noscroll {
 	cursor: pointer;
 }
 .image-wrapper img{
-	position: absolute;
 	width: 100%;
 	margin-bottom: 100px;
 }
