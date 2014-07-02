@@ -1,35 +1,71 @@
 var data = {
   "service": "19. Registered traveller",
-  "last-updated": "[DATE HERE]",
-  "userjourneys": [            
+  "last-updated": "2 July 2014",
+  "userjourneys": [
     {
-      "title": "[TITLE OF SCENARIO 1]",
+      "title": "Not eligible",
       "path": [{
-        "caption": "[CAPTION FOR SCREEN 1]",
-        "imgref": "images/[SCREEN 1 FILENAME]",
-        "note": [
-          "This is a note.",
-          "This is another note."
-        ]
+        "caption": "Start page",
+        "imgref": "images/start-page.png"
       },{
-        "caption": "[CAPTION FOR SCREEN 2]",
-        "imgref": "images/[SCREEN 2 FILENAME]",
-        "note": "This is a note."
+        "caption": "Check eligibility",
+        "imgref": "images/screen-1.png"
       },{
-        "caption": "[CAPTION FOR SCREEN 2]",
-        "imgref": "images/[SCREEN 2 FILENAME]"
+        "caption": "Not eligible",
+        "imgref": "images/screen-2.png"
       }]
     },{
-      "title": "[TITLE OF SCENARIO 2]",
+      "title": "Eligible",
       "path": [{
-        "caption": "[CAPTION FOR SCREEN 1]",
-        "imgref": "images/[SCREEN 1 FILENAME]"
+        "caption": "Start page",
+        "imgref": "images/start-page.png"
       },{
-        "caption": "[CAPTION FOR SCREEN 2]",
-        "imgref": "images/[SCREEN 2 FILENAME]"
+        "caption": "Check eligibility",
+        "imgref": "images/screen-1.png"
       },{
-        "caption": "[CAPTION FOR SCREEN 2]",
-        "imgref": "images/[SCREEN 2 FILENAME]"
-      }]
+        "caption": "Eligible",
+        "imgref": "images/screen-3.png"
+      },{
+        "caption": "Nationality",
+        "imgref": "images/screen-4.png"
+      },{
+        "caption": "Passport number",
+        "imgref": "images/screen-5.png"
+      },{
+        "caption": "Full name",
+        "imgref": "images/screen-6.png"
+      },{
+        "caption": "Date of birth",
+        "imgref": "images/screen-7.png"
+      },{
+        "caption": "Sex",
+        "imgref": "images/screen-8.png"
+      },{
+        "caption": "Expiry date",
+        "imgref": "images/screen-9.png"
+      },{
+        "caption": "Biometric?",
+        "imgref": "images/screen-10.png"
+      },{
+        "caption": "Email address",
+        "imgref": "images/screen-11.png"
+      },{
+        "caption": "Other name?",
+        "imgref": "images/screen-12.png"
+      },{
+        "caption": "Reason for travel",
+        "imgref": "images/screen-13.png"
+      },{
+        "caption": "Summary",
+        "imgref": "images/screen-14.png"
+      },{
+        "caption": "Declaration",
+        "imgref": "images/screen-15.png"
+      },{
+        "caption": "Confirmation",
+        "imgref": "images/screen-16.png"
+      },
+
+      ]
     }
   ]}
