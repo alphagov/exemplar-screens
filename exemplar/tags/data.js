@@ -55,7 +55,7 @@ var data = {
         "exemplar_name": "Waste carrier registration",
         "caption": "Confirmation Email",
         "imgref": "images/confirmation-email.png",
-        "note": "User receives confirmaton email.",
+        "note": "User receives confirmation email.",
         "tags": ['Confirm account', 'Email']
       }]
     },{
@@ -65,7 +65,7 @@ var data = {
         "exemplar_name": "Waste carrier registration",
         "caption": "Confirmation Email",
         "imgref": "images/confirmation-email.png",
-        "note": "User receives confirmaton email.",
+        "note": "User receives confirmation email.",
         "tags": ['Confirm account', 'Email']
       }]
     }

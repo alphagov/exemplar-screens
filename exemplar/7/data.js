@@ -52,7 +52,7 @@ var data = {
       },{
         "caption": "Confirmation Email",
         "imgref": "images/confirmation-email.png",
-        "note": "User receives confirmaton email.",
+        "note": "User receives confirmation email.",
         "tags": ['confirm-account', 'Email']
       }]
     }
