@@ -1,5 +1,6 @@
 var data = {
-  "exemplar_name": "17. Your tax account",
+  "exemplar_number": 17,
+  "exemplar_name": "Your tax account",
   "last-updated": "[DATE HERE]",
   "userjourneys": [
     {

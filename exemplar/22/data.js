@@ -1,5 +1,6 @@
 var data = {
-  "exemplar_name": "22. Civil claims",
+  "exemplar_number": 22,
+  "exemplar_name": "Civil claims",
   "last-updated": "[DATE HERE]",
   "userjourneys": [
     {

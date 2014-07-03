@@ -1,5 +1,6 @@
 var data = {
-  "exemplar_name": "25. Lasting power of attorney",
+  "exemplar_number": 25,
+  "exemplar_name": "Lasting power of attorney",
   "last-updated": "[DATE HERE]",
   "userjourneys": [
     {

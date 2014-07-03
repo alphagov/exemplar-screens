@@ -1,5 +1,6 @@
 var data = {
-  "exemplar_name": "2. Apprenticeship applications",
+  "exemplar_number": 2,
+  "exemplar_name": "Apprenticeship applications",
   "last-updated": "12 June 2014",
   "userjourneys": [
     {

@@ -1,5 +1,6 @@
 var data = {
-  "exemplar_name": "14. Universal Credit",
+  "exemplar_number": 14,
+  "exemplar_name": "Universal Credit",
   "last-updated": "[DATE HERE]",
   "userjourneys": [
     {

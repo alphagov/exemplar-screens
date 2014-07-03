@@ -1,5 +1,6 @@
 var data = {
-  "exemplar_name": "3. Redundancy payments",
+  "exemplar_number": 3,
+  "exemplar_name": "Redundancy payments",
   "last-updated": "16 June 2014",
   "userjourneys": [
     {

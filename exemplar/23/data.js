@@ -1,5 +1,6 @@
 var data = {
-  "exemplar_name": "23. Apply to an employment tribunal",
+  "exemplar_number": 23,
+  "exemplar_name": "Apply to an employment tribunal",
   "last-updated": "[DATE HERE]",
   "userjourneys": [
     {

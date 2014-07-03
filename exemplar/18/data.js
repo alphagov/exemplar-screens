@@ -1,5 +1,6 @@
 var data = {
-  "exemplar_name": "18. Agent online self serve",
+  "exemplar_number": 18,
+  "exemplar_name": "Agent online self serve",
   "last-updated": "[DATE HERE]",
   "userjourneys": [
     {

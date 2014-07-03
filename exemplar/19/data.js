@@ -1,5 +1,6 @@
 var data = {
-  "exemplar_name": "19. Registered traveller",
+  "exemplar_number": 19,
+  "exemplar_name": "Registered traveller",
   "last-updated": "[DATE HERE]",
   "userjourneys": [
     {

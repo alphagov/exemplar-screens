@@ -1,5 +1,6 @@
 var data = {
-  "exemplar_name": "8. Rural support (Common Agricultural Policy)",
+  "exemplar_number": 8
+  "exemplar_name": "Rural support (Common Agricultural Policy)",
   "last-updated": "[DATE HERE]",
   "userjourneys": [
     {

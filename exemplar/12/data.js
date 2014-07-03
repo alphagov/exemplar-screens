@@ -1,5 +1,6 @@
 var data = {
-  "exemplar_name": "12. Claim Carer's Allowance",
+  "exemplar_number": 12,
+  "exemplar_name": "Claim Carer's Allowance",
   "last-updated": "[DATE HERE]",
   "userjourneys": [
     {

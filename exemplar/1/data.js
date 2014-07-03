@@ -1,5 +1,6 @@
 var data = {
-  "exemplar_name": "1. Register to vote",
+  "exemplar_number": 1,
+  "exemplar_name": "Register to vote",
   "last-updated": "16 June 2014",
   "userjourneys": [
     {

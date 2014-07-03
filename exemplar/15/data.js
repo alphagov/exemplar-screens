@@ -1,5 +1,6 @@
 var data = {
-  "exemplar_name": "15. PAYE for Employees",
+  "exemplar_number": 15,
+  "exemplar_name": "PAYE for Employees",
   "last-updated": "12 June 2014",
   "userjourneys": [
     {

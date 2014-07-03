@@ -1,5 +1,6 @@
 var data = {
-  "exemplar_name": "24. Prison visit booking",
+  "exemplar_number": 24,
+  "exemplar_name": "Prison visit booking",
   "last-updated": "[DATE HERE]",
   "userjourneys": [
     {

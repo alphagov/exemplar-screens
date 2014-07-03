@@ -1,5 +1,6 @@
 var data = {
-  "exemplar_name": "16. Digital self assessment",
+  "exemplar_number": 16,
+  "exemplar_name": "Digital self assessment",
   "last-updated": "[DATE HERE]",
   "userjourneys": [
     {
