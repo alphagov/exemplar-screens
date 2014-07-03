@@ -28,7 +28,7 @@ var data = {
         "caption": "Address",
         "imgref": "images/6.address.gif",
         "note": "User enters details.",
-        "tags": ['address-lookup']
+        "tags": ['Address lookup']
       },{
         "caption": "Contact details",
         "imgref": "images/7.contact-details.png",
@@ -37,7 +37,7 @@ var data = {
         "caption": "Check details",
         "imgref": "images/8.check-details.png",
         "note": "User checks details and makes declaration.",
-        "tags": ['summary-page', 'declaration']
+        "tags": ['Summary page', 'Declaration']
       },{
         "caption": "Create account",
         "imgref": "images/9.create-account.png",
@@ -52,7 +52,7 @@ var data = {
         "caption": "Confirmation Email",
         "imgref": "images/confirmation-email.png",
         "note": "User receives confirmaton email.",
-        "tags": ['confirm-account', 'email']
+        "tags": ['confirm-account', 'Email']
       }]
     }
   ]}

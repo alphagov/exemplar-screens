@@ -21,6 +21,9 @@ h1{
 h2, h3{
 	font-size: 20px;
 }
+p{
+	font-size: 19px;
+}
 a{
 	color: #005EA5;
 }
@@ -35,6 +38,7 @@ a{
 .exemplar-list{
 	padding-left: 0;
 	color: #6f777b;
+	margin-bottom: 50px
 }
 .exemplar-list li{
 	font-size: 19px;
