@@ -1,9 +1,8 @@
 var data = {
-  "service": "Browse by tag",
   "last-updated": "3 July 2014",
   "tags": [
     {
-      "title": "Address lookup",
+      "tag": "Address lookup",
       "images": [{
         "exemplar_number": 7,
         "exemplar_name": "Waste carrier registration",
@@ -13,7 +12,7 @@ var data = {
         "tags": ['Address lookup']
       }]
     },{
-      "title": "Summary page",
+      "tag": "Summary page",
       "images": [{
         "exemplar_number": 7,
         "exemplar_name": "Waste carrier registration",
@@ -23,7 +22,7 @@ var data = {
         "tags": ['Summary page', 'Declaration']
       }]
     },{
-      "title": "Declaration",
+      "tag": "Declaration",
       "images": [{
         "exemplar_number": 7,
         "exemplar_name": "Waste carrier registration",
@@ -33,7 +32,7 @@ var data = {
         "tags": ['Summary page', 'Declaration']
       }]
     },{
-      "title": "Create account",
+      "tag": "Create account",
       "images": [{
         "exemplar_number": 7,
         "exemplar_name": "Waste carrier registration",
@@ -43,7 +42,7 @@ var data = {
         "tags": ['Create account']
       }]
     },{
-      "title": "Confirm account",
+      "tag": "Confirm account",
       "images": [{
         "exemplar_number": 7,
         "exemplar_name": "Waste carrier registration",
@@ -60,7 +59,7 @@ var data = {
         "tags": ['Confirm account', 'Email']
       }]
     },{
-      "title": "Email",
+      "tag": "Email",
       "images": [{
         "exemplar_number": 7,
         "exemplar_name": "Waste carrier registration",
