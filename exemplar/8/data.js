@@ -1,7 +1,7 @@
 var data = {
-  "service": "8. Rural support (Common Agricultural Policy)",
+  "exemplar_name": "8. Rural support (Common Agricultural Policy)",
   "last-updated": "[DATE HERE]",
-  "userjourneys": [            
+  "userjourneys": [
     {
       "title": "[TITLE OF SCENARIO 1]",
       "path": [{

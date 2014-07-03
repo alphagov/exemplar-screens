@@ -1,7 +1,7 @@
 var data = {
-  "service": "15. PAYE for Employees",
+  "exemplar_name": "15. PAYE for Employees",
   "last-updated": "12 June 2014",
-  "userjourneys": [            
+  "userjourneys": [
     {
       "title": "Tell HMRC about contributions you make to your company car",
       "path": [{
@@ -37,7 +37,7 @@ var data = {
         "imgref": "images/8.update-thanks.png",
         "note": "User enters apprentice details then clicks 'Save and continue'"
       }]
-    },           
+    },
     {
       "title": "Tell HMRC that you've replaced your company car",
       "path": [{

@@ -1,7 +1,7 @@
 var data = {
-  "service": "24. Prison visit booking",
+  "exemplar_name": "24. Prison visit booking",
   "last-updated": "[DATE HERE]",
-  "userjourneys": [            
+  "userjourneys": [
     {
       "title": "[TITLE OF SCENARIO 1]",
       "path": [{

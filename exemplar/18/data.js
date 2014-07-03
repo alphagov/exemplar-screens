@@ -1,7 +1,7 @@
 var data = {
-  "service": "18. Agent online self serve",
+  "exemplar_name": "18. Agent online self serve",
   "last-updated": "[DATE HERE]",
-  "userjourneys": [            
+  "userjourneys": [
     {
       "title": "[TITLE OF SCENARIO 1]",
       "path": [{

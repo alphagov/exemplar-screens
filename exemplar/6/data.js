@@ -1,7 +1,7 @@
 var data = {
-  "service": "6. Student finance",
+  "exemplar_name": "6. Student finance",
   "last-updated": "[DATE HERE]",
-  "userjourneys": [            
+  "userjourneys": [
     {
       "title": "[TITLE OF SCENARIO 1]",
       "path": [{

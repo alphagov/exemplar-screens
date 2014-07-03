@@ -1,7 +1,7 @@
 var data = {
-  "service": "5. Land registry",
+  "exemplar_name": "5. Land registry",
   "last-updated": "[DATE HERE]",
-  "userjourneys": [            
+  "userjourneys": [
     {
       "title": "[TITLE OF SCENARIO 1]",
       "path": [{

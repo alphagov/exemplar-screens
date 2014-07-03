@@ -1,7 +1,7 @@
 var data = {
-  "service": "17. Your tax account",
+  "exemplar_name": "17. Your tax account",
   "last-updated": "[DATE HERE]",
-  "userjourneys": [            
+  "userjourneys": [
     {
       "title": "[TITLE OF SCENARIO 1]",
       "path": [{

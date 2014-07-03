@@ -1,7 +1,7 @@
 var data = {
-  "service": "9. View driving record",
+  "exemplar_name": "9. View driving record",
   "last-updated": "[DATE HERE]",
-  "userjourneys": [            
+  "userjourneys": [
     {
       "title": "[TITLE OF SCENARIO 1]",
       "path": [{

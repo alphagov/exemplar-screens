@@ -1,5 +1,5 @@
 var data = {
-  "service": "7. Waste carrier registration",
+  "exemplar_name": "7. Waste carrier registration",
   "last-updated": "27 June 2014",
   "userjourneys": [
     {

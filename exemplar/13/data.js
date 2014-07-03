@@ -1,7 +1,7 @@
 var data = {
-  "service": "Claim Personal Independence Payment",
+  "exemplar_name": "Claim Personal Independence Payment",
   "last-updated": "[DATE]",
-  "userjourneys": [            
+  "userjourneys": [
     {
       "title": "[TITLE OF SCENARIO 1]",
       "path": [{

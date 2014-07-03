@@ -1,7 +1,7 @@
 var data = {
-  "service": "20. Passports",
+  "exemplar_name": "20. Passports",
   "last-updated": "19 June 2014",
-  "userjourneys": [            
+  "userjourneys": [
     {
       "title": "Photo guidance",
       "path": [{

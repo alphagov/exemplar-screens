@@ -1,7 +1,7 @@
 var data = {
-  "service": "22. Civil claims",
+  "exemplar_name": "22. Civil claims",
   "last-updated": "[DATE HERE]",
-  "userjourneys": [            
+  "userjourneys": [
     {
       "title": "[TITLE OF SCENARIO 1]",
       "path": [{

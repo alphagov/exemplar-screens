@@ -1,7 +1,7 @@
 var data = {
-  "service": "3. Redundancy payments",
+  "exemplar_name": "3. Redundancy payments",
   "last-updated": "16 June 2014",
-  "userjourneys": [            
+  "userjourneys": [
     {
       "title": "Confirm your details",
       "path": [{
@@ -38,7 +38,7 @@ var data = {
         "caption": "Claim summary",
         "imgref": "images/redundancy/6.claim-summary.png"
       }]
-    },            
+    },
     {
       "title": "Part 1: Job details",
       "path": [{
@@ -63,7 +63,7 @@ var data = {
         "caption": "Summary",
         "imgref": "images/redundancy/part-1.7.summary.png"
       }]
-    },            
+    },
     {
       "title": "Part 2: Details of wage and working hours",
       "path": [{
@@ -85,7 +85,7 @@ var data = {
         "caption": "Summary",
         "imgref": "images/redundancy/part-2.6.summary.png"
       }]
-    },            
+    },
     {
       "title": "Part 3: Details of redundancy pay",
       "path": [{
@@ -98,7 +98,7 @@ var data = {
         "caption": "Summary",
         "imgref": "images/redundancy/part-3.3.summary.png"
       }]
-    },            
+    },
     {
       "title": "Part 4: Details of breaks in employment",
       "path": [{
@@ -108,7 +108,7 @@ var data = {
         "caption": "Summary",
         "imgref": "images/redundancy/part-4.2.summary.png"
       }]
-    },            
+    },
     {
       "title": "Part 5: Details of holiday pay",
       "path": [{
@@ -133,7 +133,7 @@ var data = {
         "caption": "Summary",
         "imgref": "images/redundancy/part-5.7.summary.png"
       }]
-    },            
+    },
     {
       "title": "Part 6: Details of wages owed",
       "path": [{
@@ -149,7 +149,7 @@ var data = {
         "caption": "Summary",
         "imgref": "images/redundancy/part-6.4.summary.png"
       }]
-    },            
+    },
     {
       "title": "Part 7: Details of money owed to employer",
       "path": [{
@@ -159,7 +159,7 @@ var data = {
         "caption": "Summary",
         "imgref": "images/redundancy/part-7.2.summary.png"
       }]
-    },            
+    },
     {
       "title": "Part 8: Details of new employment",
       "path": [{
@@ -169,7 +169,7 @@ var data = {
         "caption": "Summary",
         "imgref": "images/redundancy/part-8.2.summary.png"
       }]
-    },            
+    },
     {
       "title": "Part 9: Additional information about your claim",
       "path": [{

@@ -1,7 +1,7 @@
 var data = {
-  "service": "1. Register to vote",
+  "exemplar_name": "1. Register to vote",
   "last-updated": "16 June 2014",
-  "userjourneys": [            
+  "userjourneys": [
     {
       "title": "British citizen, recently moved house in UK",
       "path": [{

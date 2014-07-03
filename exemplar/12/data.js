@@ -1,7 +1,7 @@
 var data = {
-  "service": "12. Claim Carer's Allowance",
+  "exemplar_name": "12. Claim Carer's Allowance",
   "last-updated": "[DATE HERE]",
-  "userjourneys": [            
+  "userjourneys": [
     {
       "title": "[TITLE OF SCENARIO 1]",
       "path": [{

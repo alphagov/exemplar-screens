@@ -1,7 +1,7 @@
 var data = {
-  "service": "23. Apply to an employment tribunal",
+  "exemplar_name": "23. Apply to an employment tribunal",
   "last-updated": "[DATE HERE]",
-  "userjourneys": [            
+  "userjourneys": [
     {
       "title": "[TITLE OF SCENARIO 1]",
       "path": [{

@@ -1,7 +1,7 @@
 var data = {
-  "service": "11. Vehicle management",
+  "exemplar_name": "11. Vehicle management",
   "last-updated": "[DATE HERE]",
-  "userjourneys": [            
+  "userjourneys": [
     {
       "title": "[TITLE OF SCENARIO 1]",
       "path": [{

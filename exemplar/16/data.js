@@ -1,7 +1,7 @@
 var data = {
-  "service": "16. Digital self assessment",
+  "exemplar_name": "16. Digital self assessment",
   "last-updated": "[DATE HERE]",
-  "userjourneys": [            
+  "userjourneys": [
     {
       "title": "[TITLE OF SCENARIO 1]",
       "path": [{

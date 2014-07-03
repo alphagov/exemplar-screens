@@ -1,7 +1,7 @@
 var data = {
-  "service": "25. Lasting power of attorney",
+  "exemplar_name": "25. Lasting power of attorney",
   "last-updated": "[DATE HERE]",
-  "userjourneys": [            
+  "userjourneys": [
     {
       "title": "[TITLE OF SCENARIO 1]",
       "path": [{

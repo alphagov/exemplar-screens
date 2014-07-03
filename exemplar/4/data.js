@@ -1,7 +1,7 @@
 var data = {
-  "service": "4. Patent renewals",
+  "exemplar_name": "4. Patent renewals",
   "last-updated": "24 June 2014",
-  "userjourneys": [            
+  "userjourneys": [
     {
       "title": "Renew 2 patents and pay by debit card",
       "path": [{
@@ -26,30 +26,30 @@ var data = {
       },{
         "caption": "Choose payment method",
         "imgref": "images/5.payment-method.png",
-        "note": "User chooses debit or credit card." 
+        "note": "User chooses debit or credit card."
       },{
         "caption": "IPO number?",
         "imgref": "images/6.IPO-number.png",
-        "note": "User is asked for an optional IPO number." 
+        "note": "User is asked for an optional IPO number."
       },{
         "caption": "Add IPO number",
         "imgref": "images/7.add-IPO-number.png",
-        "note": "User enters IPO number." 
+        "note": "User enters IPO number."
       },{
         "caption": "Payment",
         "imgref": "images/8.payment.png",
-        "note": "User enters payment details into ATOS website." 
+        "note": "User enters payment details into ATOS website."
       }]
     },    {
       "title": "Pay by IPO deposit account",
       "path": [{
         "caption": "Choose payment method",
         "imgref": "images/5.payment-method.png",
-        "note": "Previous screens are as per scenario 1. User chooses IPO deposit account." 
+        "note": "Previous screens are as per scenario 1. User chooses IPO deposit account."
       },{
         "caption": "IPO details",
         "imgref": "images/9.IPO-deposit-account-details.png",
-        "note": "" 
+        "note": ""
       }]
     },    {
       "title": "User doesn't know patent number",
@@ -60,7 +60,7 @@ var data = {
       },{
         "caption": "IPO details",
         "imgref": "images/10.search-for-patent.png",
-        "note": "User is taken to different website." 
+        "note": "User is taken to different website."
       }]
     }
   ]}
