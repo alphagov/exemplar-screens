@@ -7,7 +7,8 @@ var data = {
       "title": "Photo guidance",
       "path": [{
         "caption": "Start page",
-        "imgref": "images/photo-guidance/1.start.png"
+        "imgref": "images/photo-guidance/1.start.png",
+        "tags": ['Start page']
       },{
         "caption": "Photo question",
         "imgref": "images/photo-guidance/2.photo-question.png"
@@ -64,13 +65,15 @@ var data = {
         "imgref": "images/passport-application/1.ida-splash.png"
       },{
         "caption": "IDA login",
-        "imgref": "images/passport-application/2.ida-login.png"
+        "imgref": "images/passport-application/2.ida-login.png",
+        "tags": ['Sign in']
       },{
         "caption": "Passport number",
         "imgref": "images/passport-application/3.passport-number.png"
       },{
         "caption": "Confirm old passport details",
-        "imgref": "images/passport-application/4.confirm-old-details.png"
+        "imgref": "images/passport-application/4.confirm-old-details.png",
+        "tags": ['Summary page']
       },{
         "caption": "Contact details",
         "imgref": "images/passport-application/5.contact-details.png"
@@ -88,16 +91,20 @@ var data = {
         "imgref": "images/passport-application/9.passport-options.png"
       },{
         "caption": "Confirm details",
-        "imgref": "images/passport-application/10.confirm-details.png"
+        "imgref": "images/passport-application/10.confirm-details.png",
+        "tags": ['Summary page']
       },{
         "caption": "Declaration",
-        "imgref": "images/passport-application/11.declaration.png"
+        "imgref": "images/passport-application/11.declaration.png",
+        "tags": ['Declaration']
       },{
         "caption": "Pay",
-        "imgref": "images/passport-application/12.pay.png"
+        "imgref": "images/passport-application/12.pay.png",
+        "tags": ['Payment details']
       },{
         "caption": "Next steps",
-        "imgref": "images/passport-application/13.next-steps.png"
+        "imgref": "images/passport-application/13.next-steps.png",
+        "tags": ['Confirmation page']
       }]
     }
   ]}

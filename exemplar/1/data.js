@@ -7,7 +7,8 @@ var data = {
       "title": "British citizen, recently moved house in UK",
       "path": [{
         "caption": "Start page",
-        "imgref": "images/1.start-page.png"
+        "imgref": "images/1.start-page.png",
+        "tags": ['Start page']
       },{
         "caption": "Country of residence",
         "imgref": "images/2.country-of-residence.png"
@@ -25,7 +26,8 @@ var data = {
         "imgref": "images/6.nino.png"
       },{
         "caption": "Address",
-        "imgref": "images/6.2.address.png"
+        "imgref": "images/6.2.address.png",
+        "tags": ['Address lookup']
       },{
         "caption": "Second address?",
         "imgref": "images/7.other-address.png"
@@ -46,10 +48,12 @@ var data = {
         "imgref": "images/11.contact.png"
       },{
         "caption": "Confirm details",
-        "imgref": "images/12.confirmation.png"
+        "imgref": "images/12.confirmation.png",
+        "tags": ['Summary page']
       },{
         "caption": "Done",
-        "imgref": "images/13.done.png"
+        "imgref": "images/13.done.png",
+        "tags": ['Confirmation page']
       }]
     }
   ]}

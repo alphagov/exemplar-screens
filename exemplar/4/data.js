@@ -23,11 +23,13 @@ var data = {
       },{
         "caption": "Add renewal details",
         "imgref": "images/4.add-renewal-details.png",
-        "note": "User fills out the details on the rest of the page."
+        "note": "User fills out the details on the rest of the page.",
+        "tags": ['Add, edit, delete']
       },{
         "caption": "Choose payment method",
         "imgref": "images/5.payment-method.png",
-        "note": "User chooses debit or credit card."
+        "note": "User chooses debit or credit card.",
+        "tags": ['Payment method']
       },{
         "caption": "IPO number?",
         "imgref": "images/6.IPO-number.png",
@@ -39,7 +41,8 @@ var data = {
       },{
         "caption": "Payment",
         "imgref": "images/8.payment.png",
-        "note": "User enters payment details into ATOS website."
+        "note": "User enters payment details into ATOS website.",
+        "tags": ['Payment details']
       }]
     },    {
       "title": "Pay by IPO deposit account",

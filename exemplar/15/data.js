@@ -8,11 +8,13 @@ var data = {
       "path": [{
         "caption": "Home",
         "imgref": "images/1.home.png",
-        "note": "User clicks 'Sign in'"
+        "note": "User clicks 'Sign in'",
+        "tags": ['Start page']
       },{
         "caption": "Sign in",
         "imgref": "images/2.login.png",
-        "note": "User enters login details then clicks 'Sign in'"
+        "note": "User enters login details then clicks 'Sign in'",
+        "tags": ['Sign in']
       },{
         "caption": "Check car details",
         "imgref": "images/3.check-car-details.png",
@@ -20,7 +22,8 @@ var data = {
       },{
         "caption": "Confirm car details",
         "imgref": "images/4.confirm-details.png",
-        "note": "User checks that details are correct then clicks 'Submit'"
+        "note": "User checks that details are correct then clicks 'Submit'",
+        "tags": ['Summary page']
       },{
         "caption": "Landing page",
         "imgref": "images/5.estimated-tax.png",
@@ -32,11 +35,13 @@ var data = {
       },{
         "caption": "Confirm update",
         "imgref": "images/7.update-confirm.png",
-        "note": "User checks and confirms the updated details are correct, then clicks 'Submit'"
+        "note": "User checks and confirms the updated details are correct, then clicks 'Submit'",
+        "tags": ['Summary page']
       },{
         "caption": "Done",
         "imgref": "images/8.update-thanks.png",
-        "note": "User enters apprentice details then clicks 'Save and continue'"
+        "note": "User enters apprentice details then clicks 'Save and continue'",
+        "tags": ['Confirmation page']
       }]
     },
     {

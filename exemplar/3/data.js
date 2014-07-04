@@ -7,7 +7,8 @@ var data = {
       "title": "Confirm your details",
       "path": [{
         "caption": "Start page",
-        "imgref": "images/redundancy/1.start-page.png"
+        "imgref": "images/redundancy/1.start-page.png",
+        "tags": ['Start page']
       },{
         "caption": "Confirm identity",
         "imgref": "images/redundancy/2.confirm-identity.png"
@@ -22,7 +23,8 @@ var data = {
         "imgref": "images/redundancy/4.1.add-phone.png"
       },{
         "caption": "Check contact details",
-        "imgref": "images/redundancy/4.check-contact-details.png"
+        "imgref": "images/redundancy/4.check-contact-details.png",
+        "tags": ['Summary page']
       },{
         "caption": "Add email address",
         "imgref": "images/redundancy/4.2.add-email.png"
@@ -37,7 +39,8 @@ var data = {
         "imgref": "images/redundancy/5.1.add-phone.png"
       },{
         "caption": "Claim summary",
-        "imgref": "images/redundancy/6.claim-summary.png"
+        "imgref": "images/redundancy/6.claim-summary.png",
+        "tags": ['Summary page']
       }]
     },
     {
@@ -62,7 +65,8 @@ var data = {
         "imgref": "images/redundancy/part-1.6.claim-loss-of-notice.png"
       },{
         "caption": "Summary",
-        "imgref": "images/redundancy/part-1.7.summary.png"
+        "imgref": "images/redundancy/part-1.7.summary.png",
+        "tags": ['Summary page']
       }]
     },
     {
@@ -84,7 +88,8 @@ var data = {
         "imgref": "images/redundancy/part-2.5.days-worked.png"
       },{
         "caption": "Summary",
-        "imgref": "images/redundancy/part-2.6.summary.png"
+        "imgref": "images/redundancy/part-2.6.summary.png",
+        "tags": ['Summary page']
       }]
     },
     {
@@ -97,7 +102,8 @@ var data = {
         "imgref": "images/redundancy/part-3.2.redundancy-pay.png"
       },{
         "caption": "Summary",
-        "imgref": "images/redundancy/part-3.3.summary.png"
+        "imgref": "images/redundancy/part-3.3.summary.png",
+        "tags": ['Summary page']
       }]
     },
     {
@@ -107,7 +113,8 @@ var data = {
         "imgref": "images/redundancy/part-4.1.breaks.png"
       },{
         "caption": "Summary",
-        "imgref": "images/redundancy/part-4.2.summary.png"
+        "imgref": "images/redundancy/part-4.2.summary.png",
+        "tags": ['Summary page']
       }]
     },
     {
@@ -132,7 +139,8 @@ var data = {
         "imgref": "images/redundancy/part-5.6.dates-taken.png"
       },{
         "caption": "Summary",
-        "imgref": "images/redundancy/part-5.7.summary.png"
+        "imgref": "images/redundancy/part-5.7.summary.png",
+        "tags": ['Summary page']
       }]
     },
     {
@@ -148,7 +156,8 @@ var data = {
         "imgref": "images/redundancy/part-6.3.amount.png"
       },{
         "caption": "Summary",
-        "imgref": "images/redundancy/part-6.4.summary.png"
+        "imgref": "images/redundancy/part-6.4.summary.png",
+        "tags": ['Summary page']
       }]
     },
     {
@@ -158,7 +167,8 @@ var data = {
         "imgref": "images/redundancy/part-7.1.intro.png"
       },{
         "caption": "Summary",
-        "imgref": "images/redundancy/part-7.2.summary.png"
+        "imgref": "images/redundancy/part-7.2.summary.png",
+        "tags": ['Summary page']
       }]
     },
     {
@@ -168,7 +178,8 @@ var data = {
         "imgref": "images/redundancy/part-8.1.intro.png"
       },{
         "caption": "Summary",
-        "imgref": "images/redundancy/part-8.2.summary.png"
+        "imgref": "images/redundancy/part-8.2.summary.png",
+        "tags": ['Summary page']
       }]
     },
     {
@@ -184,22 +195,27 @@ var data = {
         "imgref": "images/redundancy/part-9.3.other-info.png"
       },{
         "caption": "Summary",
-        "imgref": "images/redundancy/part-9.4.summary.png"
+        "imgref": "images/redundancy/part-9.4.summary.png",
+        "tags": ['Summary page']
       }]
     },    {
       "title": "Payment details",
       "path": [{
         "caption": "Summary and declaration",
-        "imgref": "images/redundancy/7.claim-summary.png"
+        "imgref": "images/redundancy/7.claim-summary.png",
+        "tags": ['Summary page', 'Declaration']
       },{
         "caption": "Payment method",
-        "imgref": "images/redundancy/8.payment-method.png"
+        "imgref": "images/redundancy/8.payment-method.png",
+        "tags": ['Payment method']
       },{
         "caption": "Account details",
-        "imgref": "images/redundancy/9.account-details.png"
+        "imgref": "images/redundancy/9.account-details.png",
+        "tags": ['Payment details']
       },{
         "caption": "Done",
-        "imgref": "images/redundancy/10.done.png"
+        "imgref": "images/redundancy/10.done.png",
+        "tags": ['Confirmation page']
       }]
     }
   ]}

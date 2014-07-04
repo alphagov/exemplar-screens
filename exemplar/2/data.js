@@ -13,10 +13,12 @@ var data = {
         "imgref": "images/2.apprentice.png"
       },{
         "caption": "Find apprenticeship",
-        "imgref": "images/3.find-apprenticeship.png"
+        "imgref": "images/3.find-apprenticeship.png",
+        "tags": ['Search page']
       },{
         "caption": "Search results",
-        "imgref": "images/4.search-results.png"
+        "imgref": "images/4.search-results.png",
+        "tags": ['Search results page']
       },{
         "caption": "Search details",
         "imgref": "images/5.search-details.png"
@@ -51,7 +53,8 @@ var data = {
         "imgref": "images/2.apprentice.png"
       },{
         "caption": "Create an account",
-        "imgref": "images/6.create-account.png"
+        "imgref": "images/6.create-account.png",
+        "tags": ['Create account']
       }]
     },
     {
@@ -100,7 +103,8 @@ var data = {
       },{
         "caption": "Sign in",
         "imgref": "images/11.post-vacancy-sign-in.png",
-        "note": "User enters login details then clicks 'Sign in'."
+        "note": "User enters login details then clicks 'Sign in'.",
+        "tags": ['Sign in']
       },{
         "caption": "Review your details",
         "imgref": "images/12.review-details.png",
@@ -116,7 +120,8 @@ var data = {
       },{
         "caption": "Add apprentice details",
         "imgref": "images/15.apprentice-details.png",
-        "note": "User enters apprentice details then clicks 'Save and continue'."
+        "note": "User enters apprentice details then clicks 'Save and continue'.",
+        "tags": ['Add, edit, delete']
       },{
         "caption": "Add additional information",
         "imgref": "images/16.additional-information.png",
@@ -124,11 +129,13 @@ var data = {
       },{
         "caption": "Check details",
         "imgref": "images/17.check-details.png",
-        "note": "User checks their details then clicks 'Finish and submit'."
+        "note": "User checks their details then clicks 'Finish and submit'.",
+        "tags": ['Summary page']
       },{
         "caption": "Done",
         "imgref": "images/18.submit-role.png",
-        "note": "Done. 'Submit another role' takes you back to 'Add vacancy details' screen."
+        "note": "Done. 'Submit another role' takes you back to 'Add vacancy details' screen.",
+        "tags": ['Confirmation page']
       }]
     }
   ]}
