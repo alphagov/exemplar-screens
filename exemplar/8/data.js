@@ -1,24 +1,40 @@
 var data = {
   "service": "8. Rural support (Common Agricultural Policy)",
   "last-updated": "10 July",
-  "userjourneys": [
-    {
-      "title": "All screens - alphabetical",
+  "userjourneys": [ {
+      "title": "User adds a feature to a land parcel",
       "path": [{
-        "caption": "Add a feature",
-        "imgref": "images/Add a feature   CAP Information Service.png"
+        "caption": "Start date",
+        "imgref": "images/Add a feature   CAP Information Service.png",
+        "note": "User sets the date this feature appeared on the land."
       },{
-        "caption": "Add a feature 2",
-        "imgref": "images/Add a feature 2  CAP Information Service.png"
+        "caption": "Feature type",
+        "imgref": "images/Add a feature 2  CAP Information Service.png",
+        "note": "User chooses the feature type (eg. pond) and chooses how they're going to add it to the map (in this example, using the polygon tool)."
       },{
+        "caption": "Add feature to map",
+        "imgref": "images/Add the Pond 3  CAP Information Service.png",
+        "note": "User draws the feature on the map using the polygon tool."
+      },{
+        "caption": "Additional info",
+        "imgref": "images/Additional questions 4  CAP Information Service.png",
+        "note": "User provides any additional information about the feature."
+      },{
+        "caption": "Summary",
+        "imgref": "images/Check your changes 5  CAP Information Service.png",
+        "note": "User checks and confirms that the feature details are correct."
+      },{
+        "caption": "Done",
+        "imgref": "images/Land change submitted 6  CAP Information Service.png"
+      }]
+    },{
+      "title": "Other screens",
+      "path": [{
         "caption": "Add new business",
         "imgref": "images/Add new business   CAP Information Service.png"
       },{
         "caption": "Add new business 2",
         "imgref": "images/Add new business 2  before you start   CAP Information Service.png"
-      },{
-        "caption": "Add the Pond 3",
-        "imgref": "images/Add the Pond 3  CAP Information Service.png"
       },{
         "caption": "Additional questions 4",
         "imgref": "images/Additional questions 4  CAP Information Service.png"
@@ -37,9 +53,6 @@ var data = {
       },{
         "caption": "Check business details",
         "imgref": "images/Check business details   CAP Information Service.png"
-      },{
-        "caption": "Check your changes 5",
-        "imgref": "images/Check your changes 5  CAP Information Service.png"
       },{
         "caption": "Check your personal details",
         "imgref": "images/Check your personal details   CAP Information Service.png"
@@ -91,9 +104,6 @@ var data = {
       },{
         "caption": "INitial page",
         "imgref": "images/INitial page  CAP Information Service.png"
-      },{
-        "caption": "Land change submitted 6",
-        "imgref": "images/Land change submitted 6  CAP Information Service.png"
       },{
         "caption": "Land for business",
         "imgref": "images/Land for business   CAP Information Service.png"
