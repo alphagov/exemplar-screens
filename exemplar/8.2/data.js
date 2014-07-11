@@ -31,6 +31,12 @@ var data = {
           "They do this and click 'Next'."
         ]
       },{
+        "caption": "Organic status",
+        "imgref": "images/organic.png",
+        "note" : [
+          "The user is asked what the organic status of the land is."
+        ]
+      },{
         "caption": "Buffer strip",
         "imgref": "images/IMG_0941.jpg",
         "note" : [
@@ -57,6 +63,39 @@ var data = {
           "They mark the start and end points of hedges. If both points are on a parcel boundary the hedge follows the boundary, otherwise it's a straight line.",
           "As they mark the hedges, the length of the hedge is shown next to the cursor",
           "When they're done, they click 'Next'"
+        ]
+      },{
+        "caption": "Buildings and features",
+        "imgref": "images/features.png",
+        "note" : [
+          "The user is asked to check any undefined features on the map, and add any missing features.",
+          "The 'Next' button is disabled until all undefined features have been checked.",
+          "The user can select a feature by clicking it in the list or map.",
+          "The user selects the first undefined feature."
+        ]
+      },{
+        "caption": "Check feature",
+        "imgref": "images/check-feature.png",
+        "note" : [
+          "The user defines the feature is and checks the size and shape.",
+          "If they think there's a discrepancy they can give details and a digitiser can check it.",
+          "If the feature has gone or never existed the user can delete it.",
+          "The user clicks 'Delete'."
+        ]
+      },{
+        "caption": "Delete feature",
+        "imgref": "images/delete-feature.png",
+        "note" : [
+          "The user is asked why they're deleting the feature.",
+          "If they say it no longer exists, they're asked when it ceased to exist."
+        ]
+      },{
+        "caption": "Buildings and features",
+        "imgref": "images/features.2.png",
+        "note" : [
+          "The user has deleted one feature and defined the other two.",
+          "The 'Next' button is activated and they can proceed if they want to.",
+          "Instead, they click 'Add a feature'."
         ]
       }]
     }
