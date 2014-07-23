@@ -1,35 +1,27 @@
 var data = {
   "service": "11. Vehicle management",
-  "last-updated": "[DATE HERE]",
+  "last-updated": "23rd July 2014",
   "userjourneys": [            
     {
-      "title": "[TITLE OF SCENARIO 1]",
+      "title": "Sell a vehicle into the motor trade",
       "path": [{
-        "caption": "[CAPTION FOR SCREEN 1]",
-        "imgref": "images/[SCREEN 1 FILENAME]",
-        "note": [
-          "This is a note.",
-          "This is another note."
-        ]
+        "caption": "Before you start",
+        "imgref": "images/01-Sell-a-vehicle-into-the-motor-trade.jpg"
       },{
-        "caption": "[CAPTION FOR SCREEN 2]",
-        "imgref": "images/[SCREEN 2 FILENAME]",
-        "note": "This is a note."
+        "caption": "Provide your trade details",
+        "imgref": "images/02-Provide-your-trader-details.jpg"
       },{
-        "caption": "[CAPTION FOR SCREEN 2]",
-        "imgref": "images/[SCREEN 2 FILENAME]"
-      }]
-    },{
-      "title": "[TITLE OF SCENARIO 2]",
-      "path": [{
-        "caption": "[CAPTION FOR SCREEN 1]",
-        "imgref": "images/[SCREEN 1 FILENAME]"
+        "caption": "Select your trader address",
+        "imgref": "images/03-Select-your-trade-address.jpg"
       },{
-        "caption": "[CAPTION FOR SCREEN 2]",
-        "imgref": "images/[SCREEN 2 FILENAME]"
+        "caption": "Enter vehicle details",
+        "imgref": "images/04-Enter-vehicle-details.jpg"
       },{
-        "caption": "[CAPTION FOR SCREEN 2]",
-        "imgref": "images/[SCREEN 2 FILENAME]"
+        "caption": "Complete & confirm",
+        "imgref": "images/05-Complete-and-Confirm.jpg"
+      },{
+        "caption": "Summary",
+        "imgref": "images/06-Summary.jpg"
       }]
     }
   ]}
