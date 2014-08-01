@@ -1,35 +1,25 @@
 var data = {
   "service": "10. Personalised registrations",
-  "last-updated": "[DATE HERE]",
+  "last-updated": "23-07-2014",
   "userjourneys": [            
     {
-      "title": "[TITLE OF SCENARIO 1]",
+      "title": "Keeper happy path",
       "path": [{
-        "caption": "[CAPTION FOR SCREEN 1]",
-        "imgref": "images/[SCREEN 1 FILENAME]",
-        "note": [
-          "This is a note.",
-          "This is another note."
-        ]
+        "caption": "Before you start",
+        "imgref": "images/shortest-happy-path/1-before-you-start.png"
       },{
-        "caption": "[CAPTION FOR SCREEN 2]",
-        "imgref": "images/[SCREEN 2 FILENAME]",
-        "note": "This is a note."
+        "caption": "Vehicle lookup",
+        "imgref": "images/shortest-happy-path/2-vehicle-lookup.png"
       },{
-        "caption": "[CAPTION FOR SCREEN 2]",
-        "imgref": "images/[SCREEN 2 FILENAME]"
-      }]
-    },{
-      "title": "[TITLE OF SCENARIO 2]",
-      "path": [{
-        "caption": "[CAPTION FOR SCREEN 1]",
-        "imgref": "images/[SCREEN 1 FILENAME]"
+        "caption": "Confirm",
+        "imgref": "images/shortest-happy-path/3-confirm.png"
       },{
-        "caption": "[CAPTION FOR SCREEN 2]",
-        "imgref": "images/[SCREEN 2 FILENAME]"
+        "caption": "Payment",
+        "imgref": "images/shortest-happy-path/4-payment.png"
       },{
-        "caption": "[CAPTION FOR SCREEN 2]",
-        "imgref": "images/[SCREEN 2 FILENAME]"
-      }]
+        "caption": "Success",
+        "imgref": "images/shortest-happy-path/5-success.png"
+      }
+      ]
     }
   ]}
