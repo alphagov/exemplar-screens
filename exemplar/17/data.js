@@ -33,17 +33,21 @@ var data = {
   },{
     "title": "Tax account prototype",
     "path": [{
+      "caption": "Sign in",
+      "imgref": "images/prototype/9.sign-in.png"
+    },{
       "caption": "Account overview",
       "imgref": "images/prototype/0.account-overview.png"
+    },{
+      "caption": "Account overview",
+      "imgref": "images/prototype/8.returns-up-to-date.png",
+      "note": "Self Assessment returns up to date"
     },{
       "caption": "Messages inbox",
       "imgref": "images/prototype/1.messages.png"
     },{
       "caption": "Message detail",
       "imgref": "images/prototype/2.message-pay.png"
-    },{
-      "caption": "Sign out",
-      "imgref": "images/prototype/3.sign-out.png"
     },{
       "caption": "To do",
       "imgref": "images/prototype/4.to-do.png"
@@ -57,13 +61,6 @@ var data = {
       "caption": "Important dates",
       "imgref": "images/prototype/7.dates.png"
     },{
-      "caption": "Account overview",
-      "imgref": "images/prototype/8.returns-up-to-date.png",
-      "note": "Self Assessment returns up to date"
-    },{
-      "caption": "Sign in",
-      "imgref": "images/prototype/9.sign-in.png"
-    },{
       "caption": "Pay Self Assessment",
       "imgref": "images/prototype/10.pay.png"
     },{
@@ -73,8 +70,11 @@ var data = {
       "caption": "Pay by credit or debit card",
       "imgref": "images/prototype/12.credit-debit-card.png"
     },{
-      "caption": "By by bank transfer",
+      "caption": "Pay by bank transfer",
       "imgref": "images/prototype/13.bank-account-transfer.png"
+    },{
+      "caption": "Sign out",
+      "imgref": "images/prototype/3.sign-out.png"
     }]
   }]
 }
