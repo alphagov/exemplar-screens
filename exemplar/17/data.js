@@ -3,6 +3,39 @@ var data = {
   "last-updated": "1 August 2014",
   "userjourneys": [
   {
+    "title": "Public Beta (14 August 2014)",
+    "path": [{
+      "caption": "Sign in screen",
+      "imgref": "images/web-qa-2014-08-14/00-sign-in.png"
+    },{
+      "caption": "Account overview",
+      "imgref": "images/web-qa-2014-08-14/01-account-overview.png"
+    },{
+      "caption": "Messages inbox",
+      "imgref": "images/web-qa-2014-08-14/02b-messages.png"
+    },{
+      "caption": "Messages inbox (empty)",
+      "imgref": "images/web-qa-2014-08-14/02a-messages-empty.png"
+    },{
+      "caption": "Message detail",
+      "imgref": "images/web-qa-2014-08-14/02c-message-detail.png"
+    },{
+      "caption": "Your details",
+      "imgref": "images/web-qa-2014-08-14/03-your-details.png"
+    },{
+      "caption": "Opt in screen",
+      "imgref": "images/web-qa-2014-08-14/04-email-opt-in.png"
+    },{
+      "caption": "Contact HMRC",
+      "imgref": "images/web-qa-2014-08-14/05-contact.png"
+    },{
+      "caption": "Feedback",
+      "imgref": "images/web-qa-2014-08-14/06-feedback.png"
+    },{
+      "caption": "Exit survey",
+      "imgref": "images/web-qa-2014-08-14/08-survey.png"
+    }]
+  },{
     "title": "Tax account prototype (30 July 2014)",
     "path": [{
       "caption": "Opt in screen",
