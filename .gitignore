@@ -1,0 +1,9 @@
+.rvmrc
+.DS_Store
+.ruby-gemset
+custom_plan.rb
+zeus.json
+.powrc
+.powenv
+.Trashes
+.fseventsd
