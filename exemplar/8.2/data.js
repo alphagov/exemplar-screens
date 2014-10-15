@@ -62,6 +62,7 @@ var data = {
           "They answer 'Yes' and are instructed to draw the hedges on the map.",
           "They mark the start and end points of hedges. If both points are on a parcel boundary the hedge follows the boundary, otherwise it's a straight line.",
           "As they mark the hedges, the length of the hedge is shown next to the cursor",
+          "If they make a mistake they can undo, redo or reset.",
           "When they're done, they click 'Next'"
         ]
       },{
@@ -96,6 +97,16 @@ var data = {
           "The user has deleted one feature and defined the other two.",
           "The 'Next' button is activated and they can proceed if they want to.",
           "Instead, they click 'Add a feature'."
+        ]
+      },{
+        "caption": "Add a feature",
+        "imgref": "images/IMG_0943.jpg",
+        "note" : [
+          "The user clicks the location of the feature on the map.",
+          "They enter the type and area of the feature (if known) and decribe its dimensions, orientation etc.",
+          "If they want they can attach an image, say a photo or sketch.",
+          "If required a job will be sent to a digitiser to convert the point feature to a shape one.",
+          "When they're done, they click 'Next'."
         ]
       }]
     }
