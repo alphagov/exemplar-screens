@@ -23,30 +23,47 @@ var data = {
       }]
 
     },{
-      "title": "Add a feature to a land parcel",
+      "title": "Add wheat to a land parcel",
       "path": [{
-        "caption": "Start date",
-        "imgref": "images/Add a feature   CAP Information Service.png",
-        "note": "User sets the date this feature appeared on the land."
+        "caption": "Manage land parcel",
+        "imgref": "images/add-wheat-to-parcel/1.Manage land parcel.png",
+        "note": "User clicks 'Manage land use and features'."
       },{
-        "caption": "Feature type",
-        "imgref": "images/Add a feature 2  CAP Information Service.png",
-        "note": "User chooses the feature type (eg. pond) and chooses how they're going to add it to the map (in this example, using the polygon tool)."
+        "caption": "Manage land use and features",
+        "imgref": "images/add-wheat-to-parcel/2.Manage land use and features.png",
+        "note": "User sets date and selects 'Find more' from the 'Land use' drop-down."
       },{
-        "caption": "Add feature to map",
-        "imgref": "images/Add the Pond 3  CAP Information Service.png",
-        "note": "User draws the feature on the map using the polygon tool."
+        "caption": "Search for land use",
+        "imgref": "images/add-wheat-to-parcel/3.search land use-features.png",
+        "note": "User searches for wheat and selects 'Wheat - spring'."
       },{
-        "caption": "Additional info",
-        "imgref": "images/Additional questions 4  CAP Information Service.png",
-        "note": "User provides any additional information about the feature."
+        "caption": "Warning",
+        "imgref": "images/add-wheat-to-parcel/4.Warning if underdeclared.png",
+        "note": "User is warned because the declared land use is less than the parcel area."
       },{
-        "caption": "Summary",
-        "imgref": "images/Check your changes 5  CAP Information Service.png",
-        "note": "User checks and confirms that the feature details are correct."
+        "caption": "Map",
+        "imgref": "images/add-wheat-to-parcel/5.Draw map a.png",
+        "note": "User is shown map to draw on. They click the 'Wheat' link."
       },{
-        "caption": "Done",
-        "imgref": "images/Land change submitted 6  CAP Information Service.png"
+        "caption": "Select tool",
+        "imgref": "images/add-wheat-to-parcel/6.select tool.png",
+        "note": "User selects polygon tool to draw with."
+      },{
+        "caption": "Draw map",
+        "imgref": "images/add-wheat-to-parcel/7.Draw map b.png",
+        "note": "User draws shape on map and clicks 'Next' below the map."
+      },{
+        "caption": "Add notes",
+        "imgref": "images/add-wheat-to-parcel/8.Add notes.png",
+        "note": "User adds any notes to the change."
+      },{
+        "caption": "Summary page",
+        "imgref": "images/add-wheat-to-parcel/9.Summary page.png",
+        "note": "User confirms their changes."
+      },{
+        "caption": "Confirmation",
+        "imgref": "images/add-wheat-to-parcel/10.Confirmation message.png",
+        "note": "User returns to land parcel page and is shown a confirmation message."
       }]
     },{
       "title": "Add a new business",
