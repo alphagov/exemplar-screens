@@ -34,7 +34,7 @@ var data = {
         "note": "User sets date and selects 'Find more' from the 'Land use' drop-down."
       },{
         "caption": "Search for land use",
-        "imgref": "images/add-wheat-to-parcel/3.search land use-features.png",
+        "imgref": "images/add-wheat-to-parcel/3.Search land use-features.png",
         "note": "User searches for wheat and selects 'Wheat - spring'."
       },{
         "caption": "Warning",
@@ -46,7 +46,7 @@ var data = {
         "note": "User is shown map to draw on. They click the 'Wheat' link."
       },{
         "caption": "Select tool",
-        "imgref": "images/add-wheat-to-parcel/6.select tool.png",
+        "imgref": "images/add-wheat-to-parcel/6.Select tool.png",
         "note": "User selects polygon tool to draw with."
       },{
         "caption": "Draw map",
