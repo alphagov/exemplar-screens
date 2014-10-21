@@ -1,6 +1,6 @@
 var data = {
   "service": "8. Rural support (Common Agricultural Policy)",
-  "last-updated": "10 July",
+  "last-updated": "21 October",
   "userjourneys": [ {
       "title": "First time access",
       "path": [{
@@ -258,6 +258,60 @@ var data = {
       "path": [{
         "caption": "Check your personal details",
         "imgref": "images/Check your personal details   CAP Information Service.png"
+      }]
+    },{
+      "title": "Merge parcels",
+      "path": [{
+        "caption": "Manage land parcel",
+        "imgref": "images/merge-parcels/01-manage-land-parcel.png"
+      },{
+        "caption": "Merge land parcels",
+        "imgref": "images/merge-parcels/02-merge-land-parcels.png"
+      },{
+        "caption": "Information about merge",
+        "imgref": "images/merge-parcels/03-information-about-merge.png"
+      },{
+        "caption": "Merge summary",
+        "imgref": "images/merge-parcels/04-merge-summary.png"
+      },{
+        "caption": "Merge confirmation message",
+        "imgref": "images/merge-parcels/05-merge-confirmation-message.png"
+      }]
+    },{
+      "title": "Transfer out: lease",
+      "path": [{
+        "caption": "Land overview",
+        "imgref": "images/transfer-out-lease/01-land-overview.png"
+      },{
+        "caption": "Select parcels for lease",
+        "imgref": "images/transfer-out-lease/02-select-parcels-for-lease.png"
+      },{
+        "caption": "Lease parcels",
+        "imgref": "images/transfer-out-lease/03-lease-details.png"
+      },{
+        "caption": "Lease summary",
+        "imgref": "images/transfer-out-lease/04-lease-summary.png"
+      },{
+        "caption": "Lease confirmation message",
+        "imgref": "images/transfer-out-lease/05-lease-confirmation-message.png"
+      }]
+    },{
+      "title": "Transfer out: sell",
+      "path": [{
+        "caption": "Land overview",
+        "imgref": "images/transfer-out-sell/01-land-overview.png"
+      },{
+        "caption": "Select parcels for lease",
+        "imgref": "images/transfer-out-sell/02-select-parcels.png"
+      },{
+        "caption": "Enter sale details",
+        "imgref": "images/transfer-out-sell/03-enter-sale-details.png"
+      },{
+        "caption": "Sale summary",
+        "imgref": "images/transfer-out-sell/04-sale-summary.png"
+      },{
+        "caption": "Sale confirmation message",
+        "imgref": "images/transfer-out-sell/05-sale-confirmation-message.png"
       }]
     }
   ]}
