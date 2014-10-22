@@ -313,5 +313,47 @@ var data = {
         "caption": "Sale confirmation message",
         "imgref": "images/transfer-out-sell/05-sale-confirmation-message.png"
       }]
+    },{
+      "title": "Scheme eligibility",
+      "path": [{
+        "caption": "Scheme eligibility",
+        "imgref": "images/scheme-eligibility/01-scheme-eligibility.png"
+      },{
+        "caption": "Resume application",
+        "imgref": "images/scheme-eligibility/02-resume-application.png"
+      },{
+        "caption": "Application submitted",
+        "imgref": "images/scheme-eligibility/03-application-submitted.png"
+      },{
+        "caption": "Obligation not met",
+        "imgref": "images/scheme-eligibility/04-obligation-not-met.png"
+      },{
+        "caption": "Obligation met",
+        "imgref": "images/scheme-eligibility/05-obligation-met.png"
+      },{
+        "caption": "Map EFAs",
+        "imgref": "images/scheme-eligibility/06-map-efas.png"
+      }]
+    },{
+      "title": "BPS Application",
+      "path": [{
+        "caption": "BPS Application",
+        "imgref": "images/bps-application/01-bps-application.png"
+      },{
+        "caption": "BPS Application preview",
+        "imgref": "images/bps-application/02-bps-application-preview.png"
+      },{
+        "caption": "Update area",
+        "imgref": "images/bps-application/03-update-area.png"
+      },{
+        "caption": "Cross compliance",
+        "imgref": "images/bps-application/04-cross-compliance.png"
+      },{
+        "caption": "Declaration",
+        "imgref": "images/bps-application/05-declaration.png"
+      },{
+        "caption": "Confirmation",
+        "imgref": "images/bps-application/06-confirmation.png"
+      }]
     }
   ]}
